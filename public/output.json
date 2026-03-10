@@ -1,51 +1,53 @@
 {
-  "total": 264,
-  "successful": 73,
+  "total": 369,
+  "successful": 112,
   "unknown": 0,
   "unsupported": 0,
   "timeouts": 0,
-  "redirects": 183,
+  "redirects": 251,
   "excludes": 4,
-  "errors": 4,
-  "cached": 44,
+  "errors": 2,
+  "cached": 80,
   "success_map": {},
   "error_map": {
+    "http://engineering.msu.edu/about/deans-welcome": [
+      {
+        "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+        "status": {
+          "text": "Rejected status code: 302 Found (configurable with \"accept\" option)",
+          "code": 302
+        },
+        "span": {
+          "line": 1095,
+          "column": 22
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 993337869
+        }
+      }
+    ],
     "http://engineering.msu.edu/": [
       {
         "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
         "status": {
           "text": "Error (cached)",
           "code": 302
-        }
-      },
-      {
-        "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-        "status": {
-          "text": "Error (cached)",
-          "code": 403
-        }
-      }
-    ],
-    "http://engineering.msu.edu/about/deans-welcome": [
-      {
-        "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-        "status": {
-          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
-          "code": 403
-        }
-      },
-      {
-        "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-        "status": {
-          "text": "Rejected status code: 302 Found (configurable with \"accept\" option)",
-          "code": 302
+        },
+        "span": {
+          "line": 1071,
+          "column": 22
         }
       }
     ]
   },
+  "timeout_map": {},
   "suggestion_map": {},
   "redirect_map": {},
   "excluded_map": {},
-  "duration_secs": 14,
+  "duration": {
+    "secs": 17,
+    "nanos": 45901850
+  },
   "detailed_stats": false
 }
