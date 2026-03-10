@@ -142,7 +142,7 @@ export default function App() {
 
   // Fetch output.json on mount
   useEffect(() => {
-    fetch('./src/assets/output.json')
+    fetch('./output.json')
       .then(res => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
