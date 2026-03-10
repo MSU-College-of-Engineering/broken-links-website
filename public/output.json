@@ -1,0 +1,51 @@
+{
+  "total": 264,
+  "successful": 73,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 0,
+  "redirects": 183,
+  "excludes": 4,
+  "errors": 4,
+  "cached": 44,
+  "success_map": {},
+  "error_map": {
+    "http://engineering.msu.edu/": [
+      {
+        "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+        "status": {
+          "text": "Error (cached)",
+          "code": 302
+        }
+      },
+      {
+        "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        }
+      }
+    ],
+    "http://engineering.msu.edu/about/deans-welcome": [
+      {
+        "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+        "status": {
+          "text": "Rejected status code: 302 Found (configurable with \"accept\" option)",
+          "code": 302
+        }
+      }
+    ]
+  },
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "duration_secs": 14,
+  "detailed_stats": false
+}
