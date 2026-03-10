@@ -1,16 +1,16 @@
 {
   "total": 369,
-  "successful": 120,
+  "successful": 108,
   "unknown": 0,
   "unsupported": 0,
   "timeouts": 0,
-  "redirects": 243,
+  "redirects": 254,
   "excludes": 4,
-  "errors": 2,
-  "cached": 85,
+  "errors": 3,
+  "cached": 77,
   "success_map": {},
   "error_map": {
-    "http://engineering.msu.edu/": [
+    "http://engineering.msu.edu/about/deans-welcome": [
       {
         "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
         "status": {
@@ -18,16 +18,16 @@
           "code": 302
         },
         "span": {
-          "line": 1071,
+          "line": 1095,
           "column": 22
         },
         "duration": {
           "secs": 0,
-          "nanos": 366060607
+          "nanos": 445820434
         }
       }
     ],
-    "http://engineering.msu.edu/about/deans-welcome": [
+    "http://engineering.msu.edu/": [
       {
         "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
         "status": {
@@ -35,8 +35,23 @@
           "code": 302
         },
         "span": {
-          "line": 1095,
+          "line": 1071,
           "column": 22
+        }
+      },
+      {
+        "url": "https://provost.msu.edu/edicenter",
+        "status": {
+          "text": "Rejected status code: 500 Internal Server Error (configurable with \"accept\" option)",
+          "code": 500
+        },
+        "span": {
+          "line": 1354,
+          "column": 36
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 157003308
         }
       }
     ]
@@ -46,8 +61,8 @@
   "redirect_map": {},
   "excluded_map": {},
   "duration": {
-    "secs": 13,
-    "nanos": 214549514
+    "secs": 15,
+    "nanos": 778647651
   },
   "detailed_stats": false
 }
