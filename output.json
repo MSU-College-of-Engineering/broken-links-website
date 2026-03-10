@@ -1,0 +1,57 @@
+{
+  "total": 369,
+  "successful": 113,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 0,
+  "redirects": 250,
+  "excludes": 4,
+  "errors": 2,
+  "cached": 80,
+  "success_map": {},
+  "error_map": {
+    "http://engineering.msu.edu/": [
+      {
+        "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+        "status": {
+          "text": "Rejected status code: 302 Found (configurable with \"accept\" option)",
+          "code": 302
+        },
+        "span": {
+          "line": 1071,
+          "column": 22
+        },
+        "duration": {
+          "secs": 21,
+          "nanos": 238928236
+        }
+      }
+    ],
+    "http://engineering.msu.edu/about/deans-welcome": [
+      {
+        "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+        "status": {
+          "text": "Rejected status code: 302 Found (configurable with \"accept\" option)",
+          "code": 302
+        },
+        "span": {
+          "line": 1095,
+          "column": 22
+        },
+        "duration": {
+          "secs": 22,
+          "nanos": 505649735
+        }
+      }
+    ]
+  },
+  "timeout_map": {},
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "duration": {
+    "secs": 22,
+    "nanos": 747711777
+  },
+  "detailed_stats": false
+}
