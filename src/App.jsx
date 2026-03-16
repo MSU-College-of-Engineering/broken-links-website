@@ -311,7 +311,7 @@ export default function App() {
   });
 
   const total = data?.total ?? 0;
-  const secs = data?.duration_secs ?? '?';
+  const secs = data?.duration.secs ?? '?';
 
   const pageCount = sortedPageEntries.length;
   const linkCount = filtered.length;
