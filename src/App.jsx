@@ -51,6 +51,16 @@ function groupByPage(rows) {
   }, {});
 }
 
+// Group by link URL — deduplicate, collect pages
+function groupByLink(rows) {
+  return rows.reduce((acc, row) => {
+    const key = row.url;
+    if (!acc[key]) acc[key] = { url: row.url, status: row.status, pages: [] };
+    if (!acc[key].pages.includes(row.page)) acc[key].pages.push(row.page);
+    return acc;
+  }, {});
+}
+
 // ─── Sub-components ──────────────────────────────────────────
 
 function StatCard({ stat, value, total, index }) {
@@ -74,7 +84,7 @@ function Badge({ code }) {
   );
 }
 
-function LinkRow({ link }) {
+function LinkRow({ link, onExclude }) {
   return (
     <li className="link-row">
       <span className={`badge ${badgeClass(link.status?.code)}`} aria-label={`HTTP status ${link.status?.code ?? 'unknown'}`}>
@@ -86,12 +96,55 @@ function LinkRow({ link }) {
         </a>
         {link.status?.text && <p className="link-status-text">{link.status.text}</p>}
       </div>
+      <button
+        className="exclude-link-btn"
+        title="Hide this URL"
+        aria-label={`Hide ${link.url}`}
+        onClick={() => onExclude(link.url)}
+      >✕</button>
     </li>
   );
 }
 
-function PageGroup({ page, links, index }) {
-  const [isOpen, setIsOpen] = useState(true);
+function LinkDedupeRow({ entry, onExclude }) {
+  const [pagesOpen, setPagesOpen] = useState(false);
+  return (
+    <li className="link-row link-row--dedupe">
+      <span className={`badge ${badgeClass(entry.status?.code)}`} aria-label={`HTTP status ${entry.status?.code ?? 'unknown'}`}>
+        {entry.status?.code ?? '?'}
+      </span>
+      <div className="link-info">
+        <a href={entry.url} className="link-href" target="_blank" rel="noopener noreferrer" title={entry.url}>
+          {entry.url}
+        </a>
+        {entry.status?.text && <p className="link-status-text">{entry.status.text}</p>}
+        <button
+          className="pages-toggle"
+          onClick={() => setPagesOpen(o => !o)}
+          aria-expanded={pagesOpen}
+        >
+          {pagesOpen ? '▾' : '▸'} {entry.pages.length} page{entry.pages.length !== 1 ? 's' : ''}
+        </button>
+        {pagesOpen && (
+          <ul className="pages-list">
+            {entry.pages.map((p, i) => (
+              <li key={i} className="pages-list-item" title={p}>{p}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+      <button
+        className="exclude-link-btn"
+        title="Hide this URL"
+        aria-label={`Hide ${entry.url}`}
+        onClick={() => onExclude(entry.url)}
+      >✕</button>
+    </li>
+  );
+}
+
+function PageGroup({ page, links, index, defaultOpen, onExclude }) {
+  const [isOpen, setIsOpen] = useState(defaultOpen);
   const bodyId = `group-body-${index}`;
   const codes = [...new Set(links.map(l => l.status?.code))];
 
@@ -114,7 +167,7 @@ function PageGroup({ page, links, index }) {
       {isOpen && (
         <div id={bodyId} className="page-group-body" role="region" aria-label={`Links for ${page}`}>
           <ul>
-            {links.map((link, i) => <LinkRow key={i} link={link} />)}
+            {links.map((link, i) => <LinkRow key={i} link={link} onExclude={onExclude} />)}
           </ul>
         </div>
       )}
@@ -138,9 +191,15 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('errors');
   const [search, setSearch] = useState('');
   const [codeFilter, setCodeFilter] = useState('all');
+  // New state
+  const [hiddenCodes, setHiddenCodes] = useState(new Set());
+  const [excludedUrls, setExcludedUrls] = useState(new Set());
+  const [sortBy, setSortBy] = useState('page-asc');         // page-asc | page-desc | count-asc | count-desc | code-asc | code-desc
+  const [viewMode, setViewMode] = useState('by-page');      // by-page | by-link
+  const [defaultCollapsed, setDefaultCollapsed] = useState(false);
+  const [showExcluded, setShowExcluded] = useState(false);  // panel open
   const searchRef = useRef(null);
 
-  // Fetch output.json on mount
   useEffect(() => {
     fetch('./output.json')
       .then(res => {
@@ -151,7 +210,6 @@ export default function App() {
       .catch(err => setLoadError(err.message));
   }, []);
 
-  // '/' keyboard shortcut to focus search
   useEffect(() => {
     const handler = e => {
       if (e.key === '/' && document.activeElement?.tagName !== 'INPUT') {
@@ -169,10 +227,34 @@ export default function App() {
     setCodeFilter('all');
   }, []);
 
-  // Derive tab rows + filtered results
+  const toggleHideCode = (code) => {
+    setHiddenCodes(prev => {
+      const next = new Set(prev);
+      next.has(code) ? next.delete(code) : next.add(code);
+      return next;
+    });
+  };
+
+  const excludeUrl = (url) => {
+    setExcludedUrls(prev => new Set([...prev, url]));
+  };
+
+  const unexcludeUrl = (url) => {
+    setExcludedUrls(prev => {
+      const next = new Set(prev);
+      next.delete(url);
+      return next;
+    });
+  };
+
+  // Derive rows
   const activeTabConfig = TABS.find(t => t.id === activeTab);
   const allRows = data ? flattenMap(data[activeTabConfig.mapKey]) : [];
 
+  // Collect all codes in this tab for the hide-code chips
+  const codesInTab = [...new Set(allRows.map(r => r.status?.code).filter(Boolean))].sort((a, b) => a - b);
+
+  // Apply all filters
   const filtered = allRows.filter(row => {
     const q = search.trim().toLowerCase();
     const matchSearch = !q
@@ -180,19 +262,60 @@ export default function App() {
       || row.url.toLowerCase().includes(q)
       || String(row.status?.code).includes(q);
     const matchCode = codeFilter === 'all' || String(row.status?.code) === codeFilter;
-    return matchSearch && matchCode;
+    const notHidden = !hiddenCodes.has(row.status?.code);
+    const notExcluded = !excludedUrls.has(row.url);
+    return matchSearch && matchCode && notHidden && notExcluded;
   });
 
-  const grouped = groupByPage(filtered);
-  const pageEntries = Object.entries(grouped);
-
-  // All codes across all tabs for the filter dropdown
+  // All codes across all tabs (for code filter dropdown)
   const allCodes = data
     ? [...new Set(TABS.flatMap(t => flattenMap(data[t.mapKey]).map(r => r.status?.code)).filter(Boolean))].sort((a, b) => a - b)
     : [];
 
+  // ─── By-Page view ───────────────────────────────────────────
+  const grouped = groupByPage(filtered);
+
+  const sortedPageEntries = Object.entries(grouped).sort(([pageA, linksA], [pageB, linksB]) => {
+    switch (sortBy) {
+      case 'page-asc':   return pageA.localeCompare(pageB);
+      case 'page-desc':  return pageB.localeCompare(pageA);
+      case 'count-asc':  return linksA.length - linksB.length;
+      case 'count-desc': return linksB.length - linksA.length;
+      case 'code-asc': {
+        const minA = Math.min(...linksA.map(l => l.status?.code ?? 0));
+        const minB = Math.min(...linksB.map(l => l.status?.code ?? 0));
+        return minA - minB;
+      }
+      case 'code-desc': {
+        const minA = Math.min(...linksA.map(l => l.status?.code ?? 0));
+        const minB = Math.min(...linksB.map(l => l.status?.code ?? 0));
+        return minB - minA;
+      }
+      default: return 0;
+    }
+  });
+
+  // ─── By-Link (deduplicated) view ────────────────────────────
+  const linkGroups = groupByLink(filtered);
+
+  const sortedLinkEntries = Object.values(linkGroups).sort((a, b) => {
+    switch (sortBy) {
+      case 'page-asc':   return a.url.localeCompare(b.url);
+      case 'page-desc':  return b.url.localeCompare(a.url);
+      case 'count-asc':  return a.pages.length - b.pages.length;
+      case 'count-desc': return b.pages.length - a.pages.length;
+      case 'code-asc':   return (a.status?.code ?? 0) - (b.status?.code ?? 0);
+      case 'code-desc':  return (b.status?.code ?? 0) - (a.status?.code ?? 0);
+      default: return 0;
+    }
+  });
+
   const total = data?.total ?? 0;
   const secs = data?.duration_secs ?? '?';
+
+  const pageCount = sortedPageEntries.length;
+  const linkCount = filtered.length;
+  const dedupeCount = sortedLinkEntries.length;
 
   return (
     <>
@@ -201,7 +324,7 @@ export default function App() {
         {/* Header */}
         <header className="header">
           <div>
-            <p className="header-wordmark">MSU College of Engineering · Link Audit</p>
+            <p className="header-wordmark">MSU College of Engineering</p>
             <h1 className="header-title">Link <span>Audit</span></h1>
             <p className="header-meta" aria-live="polite">
               {loadError
@@ -257,7 +380,7 @@ export default function App() {
             })}
           </div>
 
-          {/* Filters */}
+          {/* ── Filter Bar ── */}
           <div className="filters-row" role="search" aria-label="Filter results">
             <div className="search-wrap">
               <input
@@ -272,6 +395,8 @@ export default function App() {
                 onChange={e => setSearch(e.target.value)}
               />
             </div>
+
+            {/* Code filter dropdown */}
             <select
               className="select-field"
               aria-label="Filter by HTTP status code"
@@ -281,12 +406,126 @@ export default function App() {
               <option value="all">All codes</option>
               {allCodes.map(c => <option key={c} value={String(c)}>{c}</option>)}
             </select>
+
+            {/* Sort dropdown */}
+            <select
+              className="select-field"
+              aria-label="Sort results"
+              value={sortBy}
+              onChange={e => setSortBy(e.target.value)}
+            >
+              <optgroup label="Sort by Page / URL">
+                <option value="page-asc">Page A → Z</option>
+                <option value="page-desc">Page Z → A</option>
+              </optgroup>
+              <optgroup label="Sort by Count">
+                <option value="count-desc">Most links first</option>
+                <option value="count-asc">Fewest links first</option>
+              </optgroup>
+              <optgroup label="Sort by Code">
+                <option value="code-asc">Code low → high</option>
+                <option value="code-desc">Code high → low</option>
+              </optgroup>
+            </select>
+
+            {/* View mode toggle */}
+            <div className="view-toggle" role="group" aria-label="View mode">
+              <button
+                className={`view-toggle-btn${viewMode === 'by-page' ? ' active' : ''}`}
+                onClick={() => setViewMode('by-page')}
+                title="Group by page"
+              >
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="4" rx="1"/><rect x="3" y="10" width="18" height="4" rx="1"/><rect x="3" y="16" width="18" height="4" rx="1"/>
+                </svg>
+                By Page
+              </button>
+              <button
+                className={`view-toggle-btn${viewMode === 'by-link' ? ' active' : ''}`}
+                onClick={() => setViewMode('by-link')}
+                title="Deduplicate links"
+              >
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                </svg>
+                By Link
+              </button>
+            </div>
+
+            {/* Collapse toggle (only in by-page mode) */}
+            {viewMode === 'by-page' && (
+              <button
+                className="btn-collapse-toggle"
+                onClick={() => setDefaultCollapsed(c => !c)}
+                title={defaultCollapsed ? 'Expand all groups' : 'Collapse all groups'}
+              >
+                {defaultCollapsed ? '▶ Expand All' : '▼ Collapse All'}
+              </button>
+            )}
+
             <span className="filter-count" aria-live="polite" aria-atomic="true">
-              {data && `${pageEntries.length} page${pageEntries.length !== 1 ? 's' : ''} · ${filtered.length} link${filtered.length !== 1 ? 's' : ''}`}
+              {data && viewMode === 'by-page' && `${pageCount} page${pageCount !== 1 ? 's' : ''} · ${linkCount} link${linkCount !== 1 ? 's' : ''}`}
+              {data && viewMode === 'by-link' && `${dedupeCount} unique link${dedupeCount !== 1 ? 's' : ''}`}
             </span>
           </div>
 
-          {/* Results */}
+          {/* ── Hide Codes Row ── */}
+          {codesInTab.length > 0 && (
+            <div className="hide-codes-row" aria-label="Toggle visibility by status code">
+              <span className="hide-codes-label">Hide codes:</span>
+              {codesInTab.map(code => (
+                <button
+                  key={code}
+                  className={`code-chip ${badgeClass(code)}${hiddenCodes.has(code) ? ' code-chip--hidden' : ''}`}
+                  onClick={() => toggleHideCode(code)}
+                  aria-pressed={hiddenCodes.has(code)}
+                  title={hiddenCodes.has(code) ? `Show ${code}` : `Hide ${code}`}
+                >
+                  {hiddenCodes.has(code) ? <s>{code}</s> : code}
+                </button>
+              ))}
+              {hiddenCodes.size > 0 && (
+                <button className="clear-hidden-btn" onClick={() => setHiddenCodes(new Set())}>
+                  Reset
+                </button>
+              )}
+            </div>
+          )}
+
+          {/* ── Excluded URLs panel ── */}
+          {excludedUrls.size > 0 && (
+            <div className="excluded-panel">
+              <button
+                className="excluded-panel-toggle"
+                onClick={() => setShowExcluded(o => !o)}
+                aria-expanded={showExcluded}
+              >
+                <span>{showExcluded ? '▾' : '▸'}</span>
+                {excludedUrls.size} hidden URL{excludedUrls.size !== 1 ? 's' : ''}
+              </button>
+              {showExcluded && (
+                <ul className="excluded-list">
+                  {[...excludedUrls].map(url => (
+                    <li key={url} className="excluded-item">
+                      <span className="excluded-url" title={url}>{url}</span>
+                      <button
+                        className="restore-btn"
+                        onClick={() => unexcludeUrl(url)}
+                        aria-label={`Restore ${url}`}
+                      >Restore</button>
+                    </li>
+                  ))}
+                  <li>
+                    <button className="clear-hidden-btn" style={{ marginTop: '0.25rem' }} onClick={() => setExcludedUrls(new Set())}>
+                      Restore all
+                    </button>
+                  </li>
+                </ul>
+              )}
+            </div>
+          )}
+
+          {/* ── Results ── */}
           <div
             id={`tabpanel-${activeTab}`}
             role="tabpanel"
@@ -297,21 +536,43 @@ export default function App() {
             {loadError ? (
               <div className="empty-state" role="status">
                 <span className="empty-icon" aria-hidden="true">⚠</span>
-                <p>Could not load <code>./src/assets/output.json</code>. Make sure the file exists and the page is served over HTTP.</p>
+                <p>Could not load <code>./output.json</code>. Make sure the file exists and the page is served over HTTP.</p>
               </div>
             ) : !data ? (
               <div className="empty-state" role="status">
                 <span className="empty-icon" aria-hidden="true">⏳</span>
                 <p>Loading…</p>
               </div>
-            ) : pageEntries.length === 0 ? (
-              <EmptyState hasData={allRows.length > 0} />
+            ) : viewMode === 'by-page' ? (
+              sortedPageEntries.length === 0 ? (
+                <EmptyState hasData={allRows.length > 0} />
+              ) : (
+                <div className="results-list">
+                  {sortedPageEntries.map(([page, links], i) => (
+                    <PageGroup
+                      key={`${page}-${defaultCollapsed}`}
+                      page={page}
+                      links={links}
+                      index={i}
+                      defaultOpen={!defaultCollapsed}
+                      onExclude={excludeUrl}
+                    />
+                  ))}
+                </div>
+              )
             ) : (
-              <div className="results-list">
-                {pageEntries.map(([page, links], i) => (
-                  <PageGroup key={page} page={page} links={links} index={i} />
-                ))}
-              </div>
+              /* By-Link deduped view */
+              sortedLinkEntries.length === 0 ? (
+                <EmptyState hasData={allRows.length > 0} />
+              ) : (
+                <div className="results-list">
+                  <ul className="dedupe-list">
+                    {sortedLinkEntries.map((entry, i) => (
+                      <LinkDedupeRow key={entry.url} entry={entry} onExclude={excludeUrl} />
+                    ))}
+                  </ul>
+                </div>
+              )
             )}
           </div>
 
