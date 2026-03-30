@@ -193,7 +193,12 @@ export default function App() {
   const [codeFilter, setCodeFilter] = useState('all');
   // New state
   const [hiddenCodes, setHiddenCodes] = useState(new Set());
-  const [excludedUrls, setExcludedUrls] = useState(new Set());
+  const [excludedUrls, setExcludedUrls] = useState(() => {
+    try {
+      const saved = localStorage.getItem('excludedUrls');
+      return saved ? new Set(JSON.parse(saved)) : new Set();
+    } catch { return new Set(); }
+  });
   const [sortBy, setSortBy] = useState('page-asc');         // page-asc | page-desc | count-asc | count-desc | code-asc | code-desc
   const [viewMode, setViewMode] = useState('by-page');      // by-page | by-link
   const [defaultCollapsed, setDefaultCollapsed] = useState(false);
@@ -220,6 +225,10 @@ export default function App() {
     document.addEventListener('keydown', handler);
     return () => document.removeEventListener('keydown', handler);
   }, []);
+
+  useEffect(() => {
+    localStorage.setItem('excludedUrls', JSON.stringify([...excludedUrls]));
+  }, [excludedUrls]);
 
   const handleTabChange = useCallback((tabId) => {
     setActiveTab(tabId);
