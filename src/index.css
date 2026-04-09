@@ -155,6 +155,64 @@ ol {
   padding: 3rem 1.5rem 5rem;
 }
 
+/* ─── Site Selector Tabs ────────────────────────────────── */
+.site-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 1.75rem;
+}
+.site-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.03em;
+  transition:
+    background var(--transition),
+    border-color var(--transition),
+    color var(--transition),
+    box-shadow var(--transition);
+  white-space: nowrap;
+}
+.site-tab:hover {
+  background: var(--surface-2);
+  border-color: var(--border-hover);
+  color: var(--text-secondary);
+}
+.site-tab--active {
+  background: rgba(24, 69, 59, 0.06);
+  border-color: var(--spartan-green);
+  color: var(--spartan-green);
+  box-shadow: 0 2px 8px rgba(24, 69, 59, 0.08);
+}
+.site-tab-host {
+  font-weight: 700;
+}
+.site-tab-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.3rem;
+  padding: 0.05rem 0.35rem;
+  border-radius: 20px;
+  background: rgba(224, 85, 85, 0.12);
+  color: #e05555;
+  border: 1px solid rgba(224, 85, 85, 0.25);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.site-tab--active .site-tab-badge {
+  background: rgba(224, 85, 85, 0.18);
+}
+
 /* ─── Drop Overlay ──────────────────────────────────────── */
 #drop-overlay {
   display: none;

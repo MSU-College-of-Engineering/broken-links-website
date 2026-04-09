@@ -1,0 +1,830 @@
+<<<<<<< HEAD
+=======
+{
+  "https://engineering.msu.edu": {
+    "total": 3886,
+    "successful": 3621,
+    "unknown": 0,
+    "unsupported": 1,
+    "timeouts": 0,
+    "redirects": 82,
+    "excludes": 128,
+    "errors": 54,
+    "cached": 2966,
+    "success_map": {},
+    "error_map": {
+      "https://engineering.msu.edu/about/deans-welcome": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about/history": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/countdown-component": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about/donor-recognition": [
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/engineering-homepage": [
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/bme/majors-degrees-and-programs": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/directory/faculty/jain": [
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about/administration": [
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Rejected status code: 302 Found (configurable with \"accept\" option)",
+            "code": 302
+          }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/aes/contact-us": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about/mission-vision-and-strategic-plan": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/aes/majors-degrees-and-programs": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/bme/outreach-and-services": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about/community-respect-and-innovation": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/bme/newsletter": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/bme/about": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/bme": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/bme/graduate-resources": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://grad.msu.edu/best/",
+          "status": {
+            "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+            "code": 404
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about/leadership": [
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/aes": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/aes/alumni": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/bme/contact-us": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/aes/undergraduate-resources": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/aes/about": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments": [
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about/maps-and-parking": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about/outreach-and-engagement": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about/corporate-and-foundation-relations": [
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/about/contact-us": [
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://engineering.msu.edu/transfer-students": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://www.mitransfer.org/michigan-transfer-agreement",
+          "status": {
+            "text": "Network error: Network error: Connection reset by peer (os error 54) (error sending request for url (https://www.mitransfer.org/michigan-transfer-agreement))",
+            "details": "Network error: Connection reset by peer (os error 54)"
+          }
+        },
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Error (cached)",
+            "code": 302
+          }
+        }
+      ],
+      "https://engineering.msu.edu/departments/bme/research": [
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://spencelab.iq.msu.edu/",
+          "status": {
+            "text": "Network error: SSL certificate not trusted. Use --insecure if site is trusted (error sending request for url (https://spencelab.iq.msu.edu/))",
+            "details": "SSL certificate not trusted. Use --insecure if site is trusted"
+          }
+        }
+      ]
+    },
+    "suggestion_map": {},
+    "redirect_map": {},
+    "excluded_map": {},
+    "duration_secs": 37,
+    "detailed_stats": false
+  },
+  "https://mobility.msu.edu": {
+    "total": 0,
+    "successful": 0,
+    "unknown": 0,
+    "unsupported": 0,
+    "timeouts": 0,
+    "redirects": 0,
+    "excludes": 0,
+    "errors": 0,
+    "cached": 0,
+    "success_map": {},
+    "error_map": {},
+    "suggestion_map": {},
+    "redirect_map": {},
+    "excluded_map": {},
+    "duration_secs": 0,
+    "detailed_stats": false
+  },
+  "https://space-electronics.msu.edu": {
+    "total": 502,
+    "successful": 455,
+    "unknown": 0,
+    "unsupported": 0,
+    "timeouts": 0,
+    "redirects": 20,
+    "excludes": 27,
+    "errors": 0,
+    "cached": 356,
+    "success_map": {},
+    "error_map": {},
+    "suggestion_map": {},
+    "redirect_map": {},
+    "excluded_map": {},
+    "duration_secs": 9,
+    "detailed_stats": false
+  },
+  "https://designday.msu.edu": {
+    "total": 2591,
+    "successful": 2413,
+    "unknown": 0,
+    "unsupported": 0,
+    "timeouts": 0,
+    "redirects": 72,
+    "excludes": 71,
+    "errors": 35,
+    "cached": 2119,
+    "success_map": {},
+    "error_map": {
+      "https://designday.msu.edu/test-1": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/carousel-test": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/buttons": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/142": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/145": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/144": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/high-school-innovation-creativity-day": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/awards": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/biosystems-and-agricultural-engineering": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/maps-directions": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/design-day-home": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        },
+        {
+          "url": "https://www.meijer.com/",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://designday.msu.edu/test": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/sponsorships": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        },
+        {
+          "url": "https://www.meijer.com/",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          }
+        }
+      ],
+      "https://designday.msu.edu/history": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/": [
+        {
+          "url": "https://www.meijer.com/",
+          "status": {
+            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+            "code": 403
+          }
+        },
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/computer-science-and-engineering": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/academic-departments": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/contact-us": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/chemical-engineering-and-material-science": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/tab": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/numbers": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/event-information": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/civil-and-environmental-engineering": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/schedule-building-maps": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/applied-engineering-sciences": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/test-0": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/143": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/41": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/test-222": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/mechanical-engineering": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/booklets": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+            "code": 404
+          }
+        }
+      ],
+      "https://designday.msu.edu/electrical-and-computer-engineering": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          }
+        }
+      ]
+    },
+    "suggestion_map": {},
+    "redirect_map": {},
+    "excluded_map": {},
+    "duration_secs": 31,
+    "detailed_stats": false
+  }
+}
+>>>>>>> afa73a7 (add egr website selection)

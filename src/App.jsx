@@ -186,7 +186,8 @@ function EmptyState({ hasData }) {
 
 // ─── Main App ─────────────────────────────────────────────────
 export default function App() {
-  const [data, setData] = useState(null);
+  const [allData, setAllData] = useState(null);
+  const [activeWebsite, setActiveWebsite] = useState(null);
   const [loadError, setLoadError] = useState(null);
   const [activeTab, setActiveTab] = useState('errors');
   const [search, setSearch] = useState('');
@@ -205,13 +206,20 @@ export default function App() {
   const [showExcluded, setShowExcluded] = useState(false);  // panel open
   const searchRef = useRef(null);
 
+  // Derived from selected website
+  const data = allData && activeWebsite ? allData[activeWebsite] : null;
+  const websiteKeys = allData ? Object.keys(allData) : [];
+
   useEffect(() => {
     fetch('./output.json')
       .then(res => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
       })
-      .then(json => setData(json))
+      .then(json => {
+        setAllData(json);
+        setActiveWebsite(Object.keys(json)[0]);
+      })
       .catch(err => setLoadError(err.message));
   }, []);
 
@@ -320,7 +328,7 @@ export default function App() {
   });
 
   const total = data?.total ?? 0;
-  const secs = data?.duration.secs ?? '?';
+  const secs = data?.duration_secs ?? '?';
 
   const pageCount = sortedPageEntries.length;
   const linkCount = filtered.length;
@@ -344,6 +352,35 @@ export default function App() {
             </p>
           </div>
         </header>
+
+        {/* Site Selector */}
+        {websiteKeys.length > 0 && (
+          <nav className="site-tabs" aria-label="Select website">
+            {websiteKeys.map(site => {
+              const hostname = (() => { try { return new URL(site).hostname; } catch { return site; } })();
+              const siteData = allData[site];
+              const isActive = activeWebsite === site;
+              return (
+                <button
+                  key={site}
+                  className={`site-tab${isActive ? ' site-tab--active' : ''}`}
+                  aria-pressed={isActive}
+                  title={site}
+                  onClick={() => {
+                    setActiveWebsite(site);
+                    setSearch('');
+                    setCodeFilter('all');
+                  }}
+                >
+                  <span className="site-tab-host">{hostname}</span>
+                  {siteData.errors > 0 && (
+                    <span className="site-tab-badge">{siteData.errors}</span>
+                  )}
+                </button>
+              );
+            })}
+          </nav>
+        )}
 
         {/* Stats */}
         <section aria-labelledby="stats-heading">
@@ -576,7 +613,7 @@ export default function App() {
               ) : (
                 <div className="results-list">
                   <ul className="dedupe-list">
-                    {sortedLinkEntries.map((entry, i) => (
+                    {sortedLinkEntries.map((entry) => (
                       <LinkDedupeRow key={entry.url} entry={entry} onExclude={excludeUrl} />
                     ))}
                   </ul>
