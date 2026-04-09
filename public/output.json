@@ -1,785 +1,506 @@
-<<<<<<< HEAD
-=======
 {
-  "https://engineering.msu.edu": {
-    "total": 3886,
-    "successful": 3621,
-    "unknown": 0,
-    "unsupported": 1,
-    "timeouts": 0,
-    "redirects": 82,
-    "excludes": 128,
-    "errors": 54,
-    "cached": 2966,
-    "success_map": {},
-    "error_map": {
-      "https://engineering.msu.edu/about/deans-welcome": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about/history": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/countdown-component": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about/donor-recognition": [
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        },
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/engineering-homepage": [
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        },
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/bme/majors-degrees-and-programs": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/directory/faculty/jain": [
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        },
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about/administration": [
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Rejected status code: 302 Found (configurable with \"accept\" option)",
-            "code": 302
-          }
-        },
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/aes/contact-us": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about/mission-vision-and-strategic-plan": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/aes/majors-degrees-and-programs": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/bme/outreach-and-services": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about/community-respect-and-innovation": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/bme/newsletter": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/bme/about": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/bme": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/bme/graduate-resources": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://grad.msu.edu/best/",
-          "status": {
-            "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
-            "code": 404
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about/leadership": [
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        },
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/aes": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/aes/alumni": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/bme/contact-us": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/aes/undergraduate-resources": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/aes/about": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments": [
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        },
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about/maps-and-parking": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about/outreach-and-engagement": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about/corporate-and-foundation-relations": [
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        },
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/about/contact-us": [
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        },
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://engineering.msu.edu/transfer-students": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://www.mitransfer.org/michigan-transfer-agreement",
-          "status": {
-            "text": "Network error: Network error: Connection reset by peer (os error 54) (error sending request for url (https://www.mitransfer.org/michigan-transfer-agreement))",
-            "details": "Network error: Connection reset by peer (os error 54)"
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          }
-        }
-      ],
-      "https://engineering.msu.edu/departments/bme/research": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://spencelab.iq.msu.edu/",
-          "status": {
-            "text": "Network error: SSL certificate not trusted. Use --insecure if site is trusted (error sending request for url (https://spencelab.iq.msu.edu/))",
-            "details": "SSL certificate not trusted. Use --insecure if site is trusted"
-          }
-        }
-      ]
-    },
-    "suggestion_map": {},
-    "redirect_map": {},
-    "excluded_map": {},
-    "duration_secs": 37,
-    "detailed_stats": false
-  },
   "https://mobility.msu.edu": {
     "total": 0,
+    "unique": 0,
     "successful": 0,
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
     "redirects": 0,
+    "remaps": 0,
     "excludes": 0,
     "errors": 0,
     "cached": 0,
     "success_map": {},
     "error_map": {},
+    "timeout_map": {},
     "suggestion_map": {},
     "redirect_map": {},
     "excluded_map": {},
-    "duration_secs": 0,
+    "duration": {
+      "secs": 1,
+      "nanos": 234305507
+    },
     "detailed_stats": false
   },
   "https://space-electronics.msu.edu": {
-    "total": 502,
-    "successful": 455,
+    "total": 754,
+    "unique": 119,
+    "successful": 727,
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
-    "redirects": 20,
+    "redirects": 36,
+    "remaps": 0,
     "excludes": 27,
     "errors": 0,
-    "cached": 356,
+    "cached": 574,
     "success_map": {},
     "error_map": {},
+    "timeout_map": {},
     "suggestion_map": {},
     "redirect_map": {},
-    "excluded_map": {},
-    "duration_secs": 9,
+    "excluded_map": {
+      "https://space-electronics.msu.edu/team": [
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 24475
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 211
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 23079
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 323
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/members": [
+        {
+          "url": "mailto:harokop1@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9323
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 624
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 12925
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 226
+          }
+        },
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 14321
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 222
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/site-map": [
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 10624
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 199
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9228
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 247
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/contact": [
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 12726
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 256
+          }
+        },
+        {
+          "url": "mailto:harokop1@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 8459
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 279
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 11330
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 240
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/student-experiences": [
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 14718
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 243
+          }
+        },
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 16114
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 220
+          }
+        },
+        {
+          "url": "mailto:serbar@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 12051
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 262
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/errors": [
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 8358
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 231
+          }
+        },
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9754
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 212
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/": [
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9428
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 261
+          }
+        },
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 10824
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 228
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/resources": [
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 13074
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 310
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 11678
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 211
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/errors/404": [
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9337
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 246
+          }
+        },
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 10733
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 236
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/errors/500": [
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9947
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 305
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 8551
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 317
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/about": [
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 12339
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 652
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 10943
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 851
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/search": [
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9913
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 324
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 8517
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 293
+          }
+        }
+      ]
+    },
+    "duration": {
+      "secs": 4,
+      "nanos": 889030021
+    },
     "detailed_stats": false
   },
   "https://designday.msu.edu": {
-    "total": 2591,
-    "successful": 2413,
+    "total": 3144,
+    "unique": 404,
+    "successful": 3036,
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
-    "redirects": 72,
+    "redirects": 77,
+    "remaps": 0,
     "excludes": 71,
-    "errors": 35,
-    "cached": 2119,
+    "errors": 37,
+    "cached": 2666,
     "success_map": {},
     "error_map": {
-      "https://designday.msu.edu/test-1": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/carousel-test": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/buttons": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/142": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/145": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/144": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/high-school-innovation-creativity-day": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/awards": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/biosystems-and-agricultural-engineering": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/maps-directions": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/design-day-home": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        },
-        {
-          "url": "https://www.meijer.com/",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://designday.msu.edu/test": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/sponsorships": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        },
-        {
-          "url": "https://www.meijer.com/",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          }
-        }
-      ],
-      "https://designday.msu.edu/history": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/": [
-        {
-          "url": "https://www.meijer.com/",
-          "status": {
-            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
-            "code": 403
-          }
-        },
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/computer-science-and-engineering": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/academic-departments": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/contact-us": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/chemical-engineering-and-material-science": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/tab": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/numbers": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/event-information": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/civil-and-environmental-engineering": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
       "https://designday.msu.edu/schedule-building-maps": [
         {
           "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
           "status": {
             "text": "Error (cached)",
             "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/applied-engineering-sciences": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/test-0": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/143": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/41": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
           }
         }
       ],
@@ -789,24 +510,77 @@
           "status": {
             "text": "Error (cached)",
             "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
           }
         }
       ],
-      "https://designday.msu.edu/mechanical-engineering": [
+      "https://designday.msu.edu/high-school-innovation-creativity-day": [
         {
           "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
           "status": {
             "text": "Error (cached)",
             "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
           }
         }
       ],
-      "https://designday.msu.edu/booklets": [
+      "https://designday.msu.edu/numbers": [
         {
           "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
           "status": {
-            "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+            "text": "Error (cached)",
             "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/event-information": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/buttons": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/css/css_KwFpoLPEwf0-9XPssChWGbkMu0xom2H0KqSvswZYIMU.css?delta=0&language=en&theme=egrbs5&include=eJx9UdFyAyEI_CE9n_o9Diq9eFVxADPJ39fkck1mmvYJ2AV2UWi5gmIU8SM72Cs7SwMiqD63DaMSuwktgUhFGboXvRb0ldKYIQxVap7OyJwTvpuMVDs1bPp279wD5Q8Cy2O_iURfGcU94ia83G3IZBjdU2LBlYN8WDujTfk8PfF_PU-B2ZJ4dCgLbHAxe8_LlO2w4g88RKlaQeB4OsBXyQO6KHKDYhN2bAlbnO4Pci0UJnU7JLfV4PD7ef4mWjK0iO4d6BN-wihqOjCs80tOclh_IstofYSS5YTJSGQqZXR3JEauolhdAEGjwVdcoWIbv4H9mb8BCA_Yew",
+          "status": {
+            "text": "Rejected status code: 502 Bad Gateway (configurable with \"accept\" option)",
+            "code": 502
+          },
+          "span": {
+            "line": 48,
+            "column": 45
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 256573066
+          }
+        },
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
           }
         }
       ],
@@ -816,15 +590,1542 @@
           "status": {
             "text": "Error (cached)",
             "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/144": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/145": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/maps-directions": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/contact-us": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/history": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/civil-and-environmental-engineering": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/142": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/academic-departments": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        },
+        {
+          "url": "http://www.capstone.cse.msu.edu/2025-08/home/",
+          "status": {
+            "text": "Network error: SSL certificate not trusted. Use --insecure if site is trusted (error sending request for url (http://www.capstone.cse.msu.edu/2025-08/home/))",
+            "details": "SSL certificate not trusted. Use --insecure if site is trusted | Followed 1 redirect. Redirects: http://www.capstone.cse.msu.edu/2025-08/home/ --[301]--> https://capstone.cse.msu.edu/2025-08/home/",
+            "redirects": {
+              "origin": "http://www.capstone.cse.msu.edu/2025-08/home/",
+              "redirects": [
+                {
+                  "url": "https://capstone.cse.msu.edu/2025-08/home/",
+                  "code": 301
+                }
+              ]
+            }
+          },
+          "span": {
+            "line": 1019,
+            "column": 681
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 16836873
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/41": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/design-day-home": [
+        {
+          "url": "https://www.meijer.com/",
+          "status": {
+            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+            "code": 403
+          },
+          "span": {
+            "line": 745,
+            "column": 36
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 81659760
+          }
+        },
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+            "code": 404
+          },
+          "span": {
+            "line": 35,
+            "column": 24
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 366177444
+          }
+        }
+      ],
+      "https://designday.msu.edu/booklets": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/biosystems-and-agricultural-engineering": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/test": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/143": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/test-0": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/chemical-engineering-and-material-science": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/sponsorships": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        },
+        {
+          "url": "https://www.meijer.com/",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          },
+          "span": {
+            "line": 940,
+            "column": 36
+          }
+        }
+      ],
+      "https://designday.msu.edu/mechanical-engineering": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/": [
+        {
+          "url": "https://www.meijer.com/",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          },
+          "span": {
+            "line": 745,
+            "column": 36
+          }
+        },
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 35,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/applied-engineering-sciences": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/carousel-test": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/awards": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/tab": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/computer-science-and-engineering": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/test-1": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
           }
         }
       ]
     },
+    "timeout_map": {},
     "suggestion_map": {},
     "redirect_map": {},
-    "excluded_map": {},
-    "duration_secs": 31,
+    "excluded_map": {
+      "https://designday.msu.edu/test-0": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 800,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 372
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 912,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 288
+          }
+        }
+      ],
+      "https://designday.msu.edu/maps-directions": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1046,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 360
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1158,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 329
+          }
+        }
+      ],
+      "https://designday.msu.edu/test-1": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 795,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 264
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 907,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 257
+          }
+        }
+      ],
+      "https://designday.msu.edu/civil-and-environmental-engineering": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 934,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 565
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 822,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 215
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/145": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 745,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 271
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 857,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 225
+          }
+        }
+      ],
+      "https://designday.msu.edu/applied-engineering-sciences": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 934,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 227
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 822,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 215
+          }
+        }
+      ],
+      "https://designday.msu.edu/history": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 979,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 218
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 867,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 218
+          }
+        }
+      ],
+      "https://designday.msu.edu/mechanical-engineering": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 875,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 214
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 987,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 202
+          }
+        }
+      ],
+      "https://designday.msu.edu/": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1183,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 219
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1073,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 230
+          }
+        }
+      ],
+      "https://designday.msu.edu/numbers": [
+        {
+          "url": "mailto:dyksen@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 805,
+            "column": 224
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 1078
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1180,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 212
+          }
+        },
+        {
+          "url": "mailto:marti884@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 805,
+            "column": 312
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 547
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1068,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 222
+          }
+        }
+      ],
+      "https://designday.msu.edu/booklets": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 958,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 242
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1070,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 224
+          }
+        }
+      ],
+      "https://designday.msu.edu/computer-science-and-engineering": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 934,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 287
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 822,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 374
+          }
+        }
+      ],
+      "https://designday.msu.edu/academic-departments": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1659,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 216
+          }
+        },
+        {
+          "url": "mailto:kirkdana@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 695,
+            "column": 1044
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 594
+          }
+        },
+        {
+          "url": "mailto:ljgenik@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 608,
+            "column": 474
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 738
+          }
+        },
+        {
+          "url": "mailto:reesel@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 695,
+            "column": 1099
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 203
+          }
+        },
+        {
+          "url": "mailto:dyksen@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1019,
+            "column": 812
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 996
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1547,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 257
+          }
+        }
+      ],
+      "https://designday.msu.edu/event-information": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 952,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 205
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 840,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 239
+          }
+        }
+      ],
+      "https://designday.msu.edu/design-day-home": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1183,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 535
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1073,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 487
+          }
+        }
+      ],
+      "https://designday.msu.edu/tab": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 916,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 229
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 804,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 233
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/142": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 741,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 252
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 853,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 222
+          }
+        }
+      ],
+      "https://designday.msu.edu/chemical-engineering-and-material-science": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 987,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 211
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 875,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 504
+          }
+        }
+      ],
+      "https://designday.msu.edu/electrical-and-computer-engineering": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 934,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 247
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 822,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 230
+          }
+        }
+      ],
+      "https://designday.msu.edu/buttons": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 909,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 258
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 797,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 547
+          }
+        }
+      ],
+      "https://designday.msu.edu/sponsorships": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1381,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 429
+          }
+        },
+        {
+          "url": "mailto:dyksen@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 504,
+            "column": 635
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 496
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1269,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 267
+          }
+        }
+      ],
+      "https://designday.msu.edu/schedule-building-maps": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 886,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 242
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 998,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 229
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/144": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 853,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 332
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 741,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 364
+          }
+        }
+      ],
+      "https://designday.msu.edu/test": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 736,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 262
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 848,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 231
+          }
+        }
+      ],
+      "https://designday.msu.edu/contact-us": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 842,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 251
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 954,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 217
+          }
+        }
+      ],
+      "https://designday.msu.edu/carousel-test": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 736,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 215
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 848,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 232
+          }
+        }
+      ],
+      "https://designday.msu.edu/high-school-innovation-creativity-day": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1466,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 275
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1578,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 230
+          }
+        }
+      ],
+      "https://designday.msu.edu/biosystems-and-agricultural-engineering": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 822,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 419
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 934,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 242
+          }
+        }
+      ],
+      "https://designday.msu.edu/test-222": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 892,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 223
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 780,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 239
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/143": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 853,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 229
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 741,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 246
+          }
+        }
+      ],
+      "https://designday.msu.edu/awards": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1838,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 348
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1950,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 211
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/41": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 741,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 365
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 853,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 282
+          }
+        }
+      ]
+    },
+    "duration": {
+      "secs": 14,
+      "nanos": 398934052
+    },
     "detailed_stats": false
   }
 }
->>>>>>> afa73a7 (add egr website selection)
