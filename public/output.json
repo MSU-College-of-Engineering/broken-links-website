@@ -6,11 +6,11 @@
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
-    "redirects": 19,
+    "redirects": 20,
     "remaps": 0,
     "excludes": 4,
     "errors": 6,
-    "cached": 209,
+    "cached": 210,
     "success_map": {},
     "error_map": {
       "https://engineering.msu.edu/about/deans-welcome": [
@@ -26,21 +26,6 @@
           }
         },
         {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
-            "code": 403
-          },
-          "span": {
-            "line": 1274,
-            "column": 18
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 102498255
-          }
-        },
-        {
           "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
           "status": {
             "text": "Rejected status code: 302 Found (configurable with \"accept\" option)",
@@ -53,7 +38,7 @@
                   "code": 302
                 },
                 {
-                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271&sessionid=a6285105-a8f6-4f17-9afb-ea6ee82a90a6&cc=1",
+                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271&sessionid=f3ab5f95-74a8-4ec2-a1f0-18c3d132e922&cc=1",
                   "code": 302
                 },
                 {
@@ -65,7 +50,7 @@
                   "code": 302
                 },
                 {
-                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271&sessionid=664e856e-7100-44b2-81c7-19a357cc5649&cc=1",
+                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271&sessionid=ed15d4dc-2952-41fd-832c-3ff58dce6868&cc=1",
                   "code": 302
                 },
                 {
@@ -77,7 +62,7 @@
                   "code": 302
                 },
                 {
-                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271&sessionid=54aa0989-8f25-48e4-b7dc-3837251e3b22&cc=1",
+                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271&sessionid=81e03246-b625-4ef3-bd45-098e57b03713&cc=1",
                   "code": 302
                 },
                 {
@@ -97,22 +82,26 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 525171229
+            "nanos": 626732838
+          }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+            "code": 403
+          },
+          "span": {
+            "line": 1274,
+            "column": 18
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 60029334
           }
         }
       ],
       "https://engineering.msu.edu/": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          },
-          "span": {
-            "line": 2513,
-            "column": 547
-          }
-        },
         {
           "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
           "status": {
@@ -134,6 +123,17 @@
             "line": 1071,
             "column": 22
           }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          },
+          "span": {
+            "line": 2513,
+            "column": 547
+          }
         }
       ]
     },
@@ -154,7 +154,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 281
+            "nanos": 242
           }
         },
         {
@@ -169,7 +169,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 227
+            "nanos": 315
           }
         }
       ],
@@ -186,7 +186,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 971
+            "nanos": 1097
           }
         },
         {
@@ -201,21 +201,21 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 296
+            "nanos": 265
           }
         }
       ]
     },
     "duration": {
-      "secs": 6,
-      "nanos": 327351398
+      "secs": 10,
+      "nanos": 691969228
     },
     "detailed_stats": false
   },
   "https://mobility.msu.edu": {
-    "total": 0,
-    "unique": 0,
-    "successful": 0,
+    "total": 2,
+    "unique": 2,
+    "successful": 2,
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
@@ -232,7 +232,7 @@
     "excluded_map": {},
     "duration": {
       "secs": 0,
-      "nanos": 142865178
+      "nanos": 227233498
     },
     "detailed_stats": false
   },
@@ -243,11 +243,11 @@
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
-    "redirects": 4,
+    "redirects": 5,
     "remaps": 0,
     "excludes": 4,
     "errors": 0,
-    "cached": 59,
+    "cached": 54,
     "success_map": {},
     "error_map": {},
     "timeout_map": {},
@@ -255,21 +255,6 @@
     "redirect_map": {},
     "excluded_map": {
       "https://space-electronics.msu.edu/about": [
-        {
-          "url": "tel:5173535817",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 10943
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 311
-          }
-        },
         {
           "url": "tel:5173551855",
           "status": {
@@ -282,11 +267,9 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 498
+            "nanos": 591
           }
-        }
-      ],
-      "https://space-electronics.msu.edu/": [
+        },
         {
           "url": "tel:5173535817",
           "status": {
@@ -295,13 +278,15 @@
           },
           "span": {
             "line": 115,
-            "column": 9428
+            "column": 10943
           },
           "duration": {
             "secs": 0,
-            "nanos": 608
+            "nanos": 902
           }
-        },
+        }
+      ],
+      "https://space-electronics.msu.edu/": [
         {
           "url": "tel:5173551855",
           "status": {
@@ -314,14 +299,29 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 499
+            "nanos": 338
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9428
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 251
           }
         }
       ]
     },
     "duration": {
-      "secs": 1,
-      "nanos": 293700982
+      "secs": 2,
+      "nanos": 387138567
     },
     "detailed_stats": false
   },
@@ -352,7 +352,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 565214862
+            "nanos": 525967826
           }
         },
         {
@@ -367,7 +367,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 68887731
+            "nanos": 104953829
           }
         }
       ],
@@ -389,38 +389,6 @@
     "suggestion_map": {},
     "redirect_map": {},
     "excluded_map": {
-      "https://designday.msu.edu/carousel-test": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 736,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 248
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 848,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 219
-          }
-        }
-      ],
       "https://designday.msu.edu/": [
         {
           "url": "tel:+15173551855",
@@ -434,7 +402,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 585
+            "nanos": 503
           }
         },
         {
@@ -449,275 +417,112 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 495
+            "nanos": 474
+          }
+        }
+      ],
+      "https://designday.msu.edu/carousel-test": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 736,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 257
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 848,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 380
           }
         }
       ]
     },
     "duration": {
       "secs": 4,
-      "nanos": 382201712
+      "nanos": 89173596
     },
     "detailed_stats": false
   },
   "https://engineering.wwwdev.egr.msu.edu": {
-    "total": 370,
-    "unique": 152,
-    "successful": 357,
+    "total": 209,
+    "unique": 209,
+    "successful": 205,
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
-    "redirects": 17,
+    "redirects": 0,
     "remaps": 0,
-    "excludes": 4,
-    "errors": 9,
-    "cached": 206,
+    "excludes": 0,
+    "errors": 4,
+    "cached": 0,
     "success_map": {},
     "error_map": {
-      "https://engineering.wwwdev.egr.msu.edu/about/deans-welcome": [
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          },
-          "span": {
-            "line": 1847,
-            "column": 547
-          }
-        },
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
-            "code": 403
-          },
-          "span": {
-            "line": 1265,
-            "column": 18
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 29567073
-          }
-        },
+      "https://engineering.wwwdev.egr.msu.edu/": [
         {
           "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
           "status": {
-            "text": "Rejected status code: 302 Found (configurable with \"accept\" option)",
-            "code": 302,
-            "redirects": {
-              "origin": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-              "redirects": [
-                {
-                  "url": "https://secure.myalumni.msu.edu/controls/login/sts.ashx?sid=1393&gid=5&returnUrl=https%3a%2f%2fsecure.myalumni.msu.edu%2fs%2f1393%2f05-alumni%2f21%2finterior.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d3%26cid%3d40%26returnurl%3dhttp%253a%252f%252fmyalumni.msu.edu%252fs%252f1393%252f05-alumni%252findex.aspx%253fsid%253d1393%2526gid%253d5%2526pgid%253d95%2526cid%253d271",
-                  "code": 302
-                },
-                {
-                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271&sessionid=1cc60ae0-d5b4-4b6b-802a-2464936716f8&cc=1",
-                  "code": 302
-                },
-                {
-                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-                  "code": 302
-                },
-                {
-                  "url": "https://secure.myalumni.msu.edu/controls/login/sts.ashx?sid=1393&gid=5&returnUrl=https%3a%2f%2fsecure.myalumni.msu.edu%2fs%2f1393%2f05-alumni%2f21%2finterior.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d3%26cid%3d40%26returnurl%3dhttp%253a%252f%252fmyalumni.msu.edu%252fs%252f1393%252f05-alumni%252findex.aspx%253fsid%253d1393%2526gid%253d5%2526pgid%253d95%2526cid%253d271",
-                  "code": 302
-                },
-                {
-                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271&sessionid=6f7ff674-f0c4-4bfc-8bde-81658891f98b&cc=1",
-                  "code": 302
-                },
-                {
-                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-                  "code": 302
-                },
-                {
-                  "url": "https://secure.myalumni.msu.edu/controls/login/sts.ashx?sid=1393&gid=5&returnUrl=https%3a%2f%2fsecure.myalumni.msu.edu%2fs%2f1393%2f05-alumni%2f21%2finterior.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d3%26cid%3d40%26returnurl%3dhttp%253a%252f%252fmyalumni.msu.edu%252fs%252f1393%252f05-alumni%252findex.aspx%253fsid%253d1393%2526gid%253d5%2526pgid%253d95%2526cid%253d271",
-                  "code": 302
-                },
-                {
-                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271&sessionid=b70327c9-11bc-4f92-9ed3-0f1b7590ed00&cc=1",
-                  "code": 302
-                },
-                {
-                  "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-                  "code": 302
-                },
-                {
-                  "url": "https://secure.myalumni.msu.edu/controls/login/sts.ashx?sid=1393&gid=5&returnUrl=https%3a%2f%2fsecure.myalumni.msu.edu%2fs%2f1393%2f05-alumni%2f21%2finterior.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d3%26cid%3d40%26returnurl%3dhttp%253a%252f%252fmyalumni.msu.edu%252fs%252f1393%252f05-alumni%252findex.aspx%253fsid%253d1393%2526gid%253d5%2526pgid%253d95%2526cid%253d271",
-                  "code": 302
-                }
-              ]
-            }
+            "text": "Forbidden",
+            "code": 403
           },
           "span": {
-            "line": 1086,
-            "column": 22
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 598622267
-          }
-        }
-      ],
-      "https://engineering.wwwdev.egr.msu.edu/": [
-        {
-          "url": "http://engineering.wwwdev.egr.msu.edu/",
-          "status": {
-            "text": "Error (cached)",
-            "code": 421
-          },
-          "span": {
-            "line": 27,
-            "column": 43
-          }
-        },
-        {
-          "url": "http://engineering.wwwdev.egr.msu.edu/",
-          "status": {
-            "text": "Error (cached)",
-            "code": 421
-          },
-          "span": {
-            "line": 8,
-            "column": 29
+            "line": 0,
+            "column": 0
           }
         },
         {
           "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
           "status": {
-            "text": "Error (cached)",
+            "text": "Forbidden",
             "code": 403
           },
           "span": {
-            "line": 1241,
-            "column": 18
-          }
-        },
-        {
-          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          },
-          "span": {
-            "line": 2489,
-            "column": 547
-          }
-        },
-        {
-          "url": "http://engineering.wwwdev.egr.msu.edu/",
-          "status": {
-            "text": "Rejected status code: 421 Misdirected Request (configurable with \"accept\" option)",
-            "code": 421,
-            "redirects": {
-              "origin": "http://engineering.wwwdev.egr.msu.edu/",
-              "redirects": [
-                {
-                  "url": "https://engineering.wwwdev.egr.msu.edu/",
-                  "code": 302
-                }
-              ]
-            }
-          },
-          "span": {
-            "line": 7,
-            "column": 29
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 16530607
-          }
-        },
-        {
-          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
-          "status": {
-            "text": "Error (cached)",
-            "code": 302
-          },
-          "span": {
-            "line": 1062,
-            "column": 22
-          }
-        }
-      ]
-    },
-    "timeout_map": {},
-    "suggestion_map": {},
-    "redirect_map": {},
-    "excluded_map": {
-      "https://engineering.wwwdev.egr.msu.edu/": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 2496,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 249
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 2607,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 233
+            "line": 0,
+            "column": 0
           }
         }
       ],
       "https://engineering.wwwdev.egr.msu.edu/about/deans-welcome": [
         {
-          "url": "tel:+15173551855",
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
           "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
+            "text": "Forbidden",
+            "code": 403
           },
           "span": {
-            "line": 1967,
-            "column": 19
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 565
+            "line": 0,
+            "column": 0
           }
         },
         {
-          "url": "mailto:websupport@egr.msu.edu",
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
           "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
+            "text": "Forbidden",
+            "code": 403
           },
           "span": {
-            "line": 1854,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 258
+            "line": 0,
+            "column": 0
           }
         }
       ]
-    },
-    "duration": {
-      "secs": 6,
-      "nanos": 128093527
-    },
-    "detailed_stats": false
+    }
   },
   "https://egr-test.wwwdev.egr.msu.edu": {
     "total": 209,
