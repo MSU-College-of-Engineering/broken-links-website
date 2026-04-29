@@ -351,6 +351,15 @@ export default function App() {
                   : 'Loading results…'}
             </p>
           </div>
+          <a
+            className="btn-load"
+            href="https://gitlab.msu.edu/egr-college-website/marco/broken-link-checker/-/pipeline_schedules"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Rerun link check on GitLab"
+          >
+            ↻ Rerun Check
+          </a>
         </header>
 
         {/* Site Selector */}
