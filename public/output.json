@@ -2,31 +2,18 @@
   "https://designday.msu.edu": {
     "total": 2996,
     "unique": 421,
-    "successful": 2896,
+    "successful": 2893,
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
-    "redirects": 98,
+    "redirects": 89,
     "remaps": 0,
     "excludes": 67,
-    "errors": 33,
-    "cached": 2462,
+    "errors": 36,
+    "cached": 2479,
     "success_map": {},
     "error_map": {
-      "https://designday.msu.edu/node/145": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/144": [
+      "https://designday.msu.edu/applied-engineering-sciences-projects": [
         {
           "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
           "status": {
@@ -52,330 +39,7 @@
           }
         }
       ],
-      "https://designday.msu.edu/numbers": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/schedule-building-maps": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/test": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/buttons": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/civil-and-environmental-engineering-projects": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/maps-directions": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 35,
-            "column": 24
-          }
-        },
-        {
-          "url": "https://www.meijer.com/",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          },
-          "span": {
-            "line": 745,
-            "column": 36
-          }
-        }
-      ],
-      "https://designday.msu.edu/chemical-engineering-and-material-science-projects": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/history": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/142": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
       "https://designday.msu.edu/electrical-and-computer-engineering-projects": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/sponsorships": [
-        {
-          "url": "https://www.meijer.com/",
-          "status": {
-            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
-            "code": 403
-          },
-          "span": {
-            "line": 940,
-            "column": 36
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 82189904
-          }
-        },
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/41": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/143": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/awards": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/applied-engineering-sciences-projects": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/design-day-home": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 35,
-            "column": 24
-          }
-        },
-        {
-          "url": "https://www.meijer.com/",
-          "status": {
-            "text": "Error (cached)",
-            "code": 403
-          },
-          "span": {
-            "line": 745,
-            "column": 36
-          }
-        }
-      ],
-      "https://designday.msu.edu/tab": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/biosystems-and-agricultural-engineering-projects": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/contact-us": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/booklets": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/carousel-test": [
-        {
-          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
-          "status": {
-            "text": "Error (cached)",
-            "code": 404
-          },
-          "span": {
-            "line": 43,
-            "column": 24
-          }
-        }
-      ],
-      "https://designday.msu.edu/computer-science-and-engineering-projects": [
         {
           "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
           "status": {
@@ -414,7 +78,245 @@
           }
         }
       ],
-      "https://designday.msu.edu/test-1": [
+      "https://designday.msu.edu/sponsorships": [
+        {
+          "url": "https://www.meijer.com/",
+          "status": {
+            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+            "code": 403
+          },
+          "span": {
+            "line": 940,
+            "column": 36
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 174275051
+          }
+        },
+        {
+          "url": "https://www.msufcu.org/",
+          "status": {
+            "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+            "code": 403
+          },
+          "span": {
+            "line": 956,
+            "column": 36
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 80938114
+          }
+        },
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          },
+          "duration": {
+            "secs": 1,
+            "nanos": 421401539
+          }
+        }
+      ],
+      "https://designday.msu.edu/test": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/145": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/computer-science-and-engineering-projects": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/design-day-home": [
+        {
+          "url": "https://www.meijer.com/",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          },
+          "span": {
+            "line": 745,
+            "column": 36
+          }
+        },
+        {
+          "url": "https://www.msufcu.org/",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          },
+          "span": {
+            "line": 761,
+            "column": 36
+          }
+        },
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 35,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/buttons": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/history": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/numbers": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/booklets": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/144": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/civil-and-environmental-engineering-projects": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/carousel-test": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/tab": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/142": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/awards": [
         {
           "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
           "status": {
@@ -431,16 +333,151 @@
         {
           "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
           "status": {
-            "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+            "text": "Error (cached)",
             "code": 404
           },
           "span": {
             "line": 43,
             "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/test-1": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
           },
-          "duration": {
-            "secs": 1,
-            "nanos": 262927175
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/contact-us": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/maps-directions": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/143": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/41": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/chemical-engineering-and-material-science-projects": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/schedule-building-maps": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
+          }
+        }
+      ],
+      "https://designday.msu.edu/": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 35,
+            "column": 24
+          }
+        },
+        {
+          "url": "https://www.msufcu.org/",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          },
+          "span": {
+            "line": 761,
+            "column": 36
+          }
+        },
+        {
+          "url": "https://www.meijer.com/",
+          "status": {
+            "text": "Error (cached)",
+            "code": 403
+          },
+          "span": {
+            "line": 745,
+            "column": 36
+          }
+        }
+      ],
+      "https://designday.msu.edu/biosystems-and-agricultural-engineering-projects": [
+        {
+          "url": "https://designday.msu.edu/sites/default/files/Spartan-Helmet_Green-RGB_0.svg",
+          "status": {
+            "text": "Error (cached)",
+            "code": 404
+          },
+          "span": {
+            "line": 43,
+            "column": 24
           }
         }
       ]
@@ -449,22 +486,7 @@
     "suggestion_map": {},
     "redirect_map": {},
     "excluded_map": {
-      "https://designday.msu.edu/sponsorships": [
-        {
-          "url": "mailto:dyksen@msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 504,
-            "column": 677
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 229
-          }
-        },
+      "https://designday.msu.edu/awards": [
         {
           "url": "mailto:websupport@egr.msu.edu",
           "status": {
@@ -472,232 +494,8 @@
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 1269,
+            "line": 1970,
             "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 266
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1381,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 378
-          }
-        }
-      ],
-      "https://designday.msu.edu/event-information": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 840,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 208
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 952,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 232
-          }
-        }
-      ],
-      "https://designday.msu.edu/test": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 736,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 284
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 848,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 245
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/41": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 741,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 254
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 853,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 305
-          }
-        }
-      ],
-      "https://designday.msu.edu/schedule-building-maps": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 886,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 212
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 998,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 312
-          }
-        }
-      ],
-      "https://designday.msu.edu/design-day-home": [
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1183,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 305
-          }
-        },
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1073,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 277
-          }
-        }
-      ],
-      "https://designday.msu.edu/mechanical-engineering-projects": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 893,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 207
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1005,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 251
-          }
-        }
-      ],
-      "https://designday.msu.edu/biosystems-and-agricultural-engineering-projects": [
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 934,
-            "column": 20
           },
           "duration": {
             "secs": 0,
@@ -705,22 +503,22 @@
           }
         },
         {
-          "url": "mailto:websupport@egr.msu.edu",
+          "url": "tel:+15173551855",
           "status": {
             "text": "Excluded",
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 822,
-            "column": 15
+            "line": 2082,
+            "column": 20
           },
           "duration": {
             "secs": 0,
-            "nanos": 244
+            "nanos": 211
           }
         }
       ],
-      "https://designday.msu.edu/maps-directions": [
+      "https://designday.msu.edu/numbers": [
         {
           "url": "mailto:websupport@egr.msu.edu",
           "status": {
@@ -728,12 +526,42 @@
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 1046,
+            "line": 1068,
             "column": 15
           },
           "duration": {
             "secs": 0,
-            "nanos": 236
+            "nanos": 227
+          }
+        },
+        {
+          "url": "mailto:marti884@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 805,
+            "column": 317
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 205
+          }
+        },
+        {
+          "url": "mailto:dyksen@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 805,
+            "column": 229
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 241
           }
         },
         {
@@ -743,12 +571,76 @@
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 1158,
+            "line": 1180,
             "column": 20
           },
           "duration": {
             "secs": 0,
-            "nanos": 242
+            "nanos": 224
+          }
+        }
+      ],
+      "https://designday.msu.edu/contact-us": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 954,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 216
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 842,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 240
+          }
+        }
+      ],
+      "https://designday.msu.edu/tab": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 804,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 488
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 916,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 384
           }
         }
       ],
@@ -780,11 +672,11 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 237
+            "nanos": 235
           }
         }
       ],
-      "https://designday.msu.edu/carousel-test": [
+      "https://designday.msu.edu/event-information": [
         {
           "url": "tel:+15173551855",
           "status": {
@@ -792,12 +684,12 @@
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 848,
+            "line": 952,
             "column": 20
           },
           "duration": {
             "secs": 0,
-            "nanos": 315
+            "nanos": 213
           }
         },
         {
@@ -807,234 +699,12 @@
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 736,
+            "line": 840,
             "column": 15
           },
           "duration": {
             "secs": 0,
-            "nanos": 242
-          }
-        }
-      ],
-      "https://designday.msu.edu/awards": [
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 2082,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 244
-          }
-        },
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1970,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 259
-          }
-        }
-      ],
-      "https://designday.msu.edu/numbers": [
-        {
-          "url": "mailto:marti884@msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 805,
-            "column": 317
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 239
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1180,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 309
-          }
-        },
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1068,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 233
-          }
-        },
-        {
-          "url": "mailto:dyksen@msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 805,
-            "column": 229
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 292
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/144": [
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 853,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 226
-          }
-        },
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 741,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 475
-          }
-        }
-      ],
-      "https://designday.msu.edu/high-school-innovation-creativity-day": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1466,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 615
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1578,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 612
-          }
-        }
-      ],
-      "https://designday.msu.edu/tab": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 804,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 219
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 916,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 240
-          }
-        }
-      ],
-      "https://designday.msu.edu/applied-engineering-sciences-projects": [
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 934,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 812
-          }
-        },
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 822,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 236
+            "nanos": 272
           }
         }
       ],
@@ -1051,7 +721,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 224
+            "nanos": 258
           }
         },
         {
@@ -1066,90 +736,11 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 225
+            "nanos": 240
           }
         }
       ],
-      "https://designday.msu.edu/history": [
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 979,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 241
-          }
-        },
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 867,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 215
-          }
-        }
-      ],
-      "https://designday.msu.edu/contact-us": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 842,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 377
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 954,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 225
-          }
-        }
-      ],
-      "https://designday.msu.edu/": [
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1183,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 316
-          }
-        },
+      "https://designday.msu.edu/design-day-home": [
         {
           "url": "mailto:websupport@egr.msu.edu",
           "status": {
@@ -1158,183 +749,6 @@
           },
           "span": {
             "line": 1073,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 302
-          }
-        }
-      ],
-      "https://designday.msu.edu/chemical-engineering-and-material-science-projects": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 893,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 306
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1005,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 250
-          }
-        }
-      ],
-      "https://designday.msu.edu/electrical-and-computer-engineering-projects": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 893,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 208
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 1005,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 367
-          }
-        }
-      ],
-      "https://designday.msu.edu/test-1": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 795,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 306
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 907,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 245
-          }
-        }
-      ],
-      "https://designday.msu.edu/computer-science-and-engineering-projects": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 822,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 300
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 934,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 257
-          }
-        }
-      ],
-      "https://designday.msu.edu/node/143": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 741,
-            "column": 15
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 255
-          }
-        },
-        {
-          "url": "tel:+15173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 853,
-            "column": 20
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 301
-          }
-        }
-      ],
-      "https://designday.msu.edu/booklets": [
-        {
-          "url": "mailto:websupport@egr.msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 989,
             "column": 15
           },
           "duration": {
@@ -1349,16 +763,16 @@
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 1101,
+            "line": 1183,
             "column": 20
           },
           "duration": {
             "secs": 0,
-            "nanos": 238
+            "nanos": 248
           }
         }
       ],
-      "https://designday.msu.edu/node/142": [
+      "https://designday.msu.edu/academic-departments": [
         {
           "url": "tel:+15173551855",
           "status": {
@@ -1366,14 +780,91 @@
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 853,
+            "line": 1712,
             "column": 20
           },
           "duration": {
             "secs": 0,
-            "nanos": 487
+            "nanos": 209
           }
         },
+        {
+          "url": "mailto:reesel@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 695,
+            "column": 1099
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 200
+          }
+        },
+        {
+          "url": "mailto:ljgenik@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 608,
+            "column": 474
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 364
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1600,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 220
+          }
+        },
+        {
+          "url": "mailto:dyksen@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1019,
+            "column": 812
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 292
+          }
+        },
+        {
+          "url": "mailto:kirkdana@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 695,
+            "column": 1044
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 323
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/142": [
         {
           "url": "mailto:websupport@egr.msu.edu",
           "status": {
@@ -1386,11 +877,122 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 216
+            "nanos": 247
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 853,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 320
           }
         }
       ],
-      "https://designday.msu.edu/civil-and-environmental-engineering-projects": [
+      "https://designday.msu.edu/carousel-test": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 736,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 250
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 848,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 220
+          }
+        }
+      ],
+      "https://designday.msu.edu/high-school-innovation-creativity-day": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1466,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 246
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1578,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 220
+          }
+        }
+      ],
+      "https://designday.msu.edu/mechanical-engineering-projects": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1005,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 220
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 893,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 228
+          }
+        }
+      ],
+      "https://designday.msu.edu/computer-science-and-engineering-projects": [
         {
           "url": "tel:+15173551855",
           "status": {
@@ -1403,7 +1005,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 313
+            "nanos": 201
           }
         },
         {
@@ -1422,7 +1024,22 @@
           }
         }
       ],
-      "https://designday.msu.edu/academic-departments": [
+      "https://designday.msu.edu/biosystems-and-agricultural-engineering-projects": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 934,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 213
+          }
+        },
         {
           "url": "mailto:websupport@egr.msu.edu",
           "status": {
@@ -1430,27 +1047,125 @@
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 1600,
+            "line": 822,
             "column": 15
           },
           "duration": {
             "secs": 0,
-            "nanos": 214
+            "nanos": 242
           }
-        },
+        }
+      ],
+      "https://designday.msu.edu/node/41": [
         {
-          "url": "mailto:reesel@msu.edu",
+          "url": "tel:+15173551855",
           "status": {
             "text": "Excluded",
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 695,
-            "column": 1099
+            "line": 853,
+            "column": 20
           },
           "duration": {
             "secs": 0,
-            "nanos": 201
+            "nanos": 263
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 741,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 242
+          }
+        }
+      ],
+      "https://designday.msu.edu/history": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 979,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 213
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 867,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 221
+          }
+        }
+      ],
+      "https://designday.msu.edu/booklets": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1101,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 224
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 989,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 224
+          }
+        }
+      ],
+      "https://designday.msu.edu/civil-and-environmental-engineering-projects": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 822,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 284
           }
         },
         {
@@ -1460,42 +1175,44 @@
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 1712,
+            "line": 934,
             "column": 20
           },
           "duration": {
             "secs": 0,
-            "nanos": 228
+            "nanos": 220
           }
-        },
+        }
+      ],
+      "https://designday.msu.edu/sponsorships": [
         {
-          "url": "mailto:ljgenik@egr.msu.edu",
+          "url": "tel:+15173551855",
           "status": {
             "text": "Excluded",
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 608,
-            "column": 474
+            "line": 1381,
+            "column": 20
           },
           "duration": {
             "secs": 0,
-            "nanos": 245
+            "nanos": 278
           }
         },
         {
-          "url": "mailto:kirkdana@msu.edu",
+          "url": "mailto:websupport@egr.msu.edu",
           "status": {
             "text": "Excluded",
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 695,
-            "column": 1044
+            "line": 1269,
+            "column": 15
           },
           "duration": {
             "secs": 0,
-            "nanos": 217
+            "nanos": 275
           }
         },
         {
@@ -1505,33 +1222,353 @@
             "details": "This is due to your 'exclude' values"
           },
           "span": {
-            "line": 1019,
-            "column": 812
+            "line": 504,
+            "column": 677
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 586
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/144": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 741,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 229
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 853,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 242
+          }
+        }
+      ],
+      "https://designday.msu.edu/maps-directions": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1158,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 214
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1046,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 212
+          }
+        }
+      ],
+      "https://designday.msu.edu/test": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 848,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 219
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 736,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 302
+          }
+        }
+      ],
+      "https://designday.msu.edu/node/143": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 741,
+            "column": 15
           },
           "duration": {
             "secs": 0,
             "nanos": 250
           }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 853,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 275
+          }
+        }
+      ],
+      "https://designday.msu.edu/": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1183,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 321
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1073,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 268
+          }
+        }
+      ],
+      "https://designday.msu.edu/schedule-building-maps": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 998,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 236
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 886,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 242
+          }
+        }
+      ],
+      "https://designday.msu.edu/electrical-and-computer-engineering-projects": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 893,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 235
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1005,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 550
+          }
+        }
+      ],
+      "https://designday.msu.edu/applied-engineering-sciences-projects": [
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 822,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 238
+          }
+        },
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 934,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 270
+          }
+        }
+      ],
+      "https://designday.msu.edu/chemical-engineering-and-material-science-projects": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 1005,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 216
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 893,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 230
+          }
+        }
+      ],
+      "https://designday.msu.edu/test-1": [
+        {
+          "url": "tel:+15173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 907,
+            "column": 20
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 203
+          }
+        },
+        {
+          "url": "mailto:websupport@egr.msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 795,
+            "column": 15
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 351
+          }
         }
       ]
     },
     "duration": {
-      "secs": 13,
-      "nanos": 818877084
+      "secs": 24,
+      "nanos": 466881155
     },
     "detailed_stats": false
   },
   "https://engineering.msu.edu": {
-    "total": 250211,
-    "unique": 13567,
-    "successful": 243773,
+    "total": 263867,
+    "unique": 13576,
+    "successful": 257442,
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
     "redirects": 0,
     "remaps": 0,
     "excludes": 0,
-    "errors": 6438,
+    "errors": 6425,
     "cached": 0,
     "success_map": {},
     "error_map": {
@@ -1609,7 +1646,7 @@
         {
           "url": "https://reidtama@msu.edu ",
           "status": {
-            "text": "HTTPSConnectionPool(host='msu.edu%20', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc884582c50>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='msu.edu%20', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c775150>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -1991,7 +2028,7 @@
         {
           "url": "https://healthpromotion.msu.edu/index.html",
           "status": {
-            "text": "HTTPSConnectionPool(host='healthpromotion.msu.edu', port=443): Max retries exceeded with url: /index.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc884732d90>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))",
+            "text": "HTTPSConnectionPool(host='healthpromotion.msu.edu', port=443): Max retries exceeded with url: /index.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c652850>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))",
             "code": 0
           },
           "span": {
@@ -2991,8 +3028,8 @@
         {
           "url": "https://www.linkedin.com/in/toomajian/",
           "status": {
-            "text": "<none>",
-            "code": 999
+            "text": "Too Many Requests",
+            "code": 429
           },
           "span": {
             "line": 0,
@@ -3035,8 +3072,8 @@
         {
           "url": "https://www.linkedin.com/in/steve-klemm-b0a82428/",
           "status": {
-            "text": "<none>",
-            "code": 999
+            "text": "Too Many Requests",
+            "code": 429
           },
           "span": {
             "line": 0,
@@ -3514,17 +3551,6 @@
           }
         },
         {
-          "url": "https://linkedin.com",
-          "status": {
-            "text": "Forbidden",
-            "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
           "url": "https://www.indeed.com/",
           "status": {
             "text": "Forbidden",
@@ -3728,7 +3754,7 @@
         {
           "url": "https://www.msuscma.org/",
           "status": {
-            "text": "HTTPSConnectionPool(host='www.msuscma.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8846639d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+            "text": "HTTPSConnectionPool(host='www.msuscma.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f630c73c390>: Failed to establish a new connection: [Errno 111] Connection refused'))",
             "code": 0
           },
           "span": {
@@ -4804,7 +4830,7 @@
         {
           "url": "https://www.hrcengr.com/",
           "status": {
-            "text": "HTTPSConnectionPool(host='www.hrcengr.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8842d2710>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
+            "text": "HTTPSConnectionPool(host='www.hrcengr.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c5d6610>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
             "code": 0
           },
           "span": {
@@ -5296,7 +5322,7 @@
         {
           "url": "https://esfahanian@msu.edu ",
           "status": {
-            "text": "HTTPSConnectionPool(host='msu.edu%20', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8847cf550>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='msu.edu%20', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c535f90>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -5359,7 +5385,7 @@
         {
           "url": "http://metlab.cse.msu.edu/",
           "status": {
-            "text": "HTTPConnectionPool(host='metlab.cse.msu.edu', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8c028ed50>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='metlab.cse.msu.edu', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f632c500050>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -5370,7 +5396,7 @@
         {
           "url": "http://sens.cse.msu.edu/",
           "status": {
-            "text": "HTTPConnectionPool(host='sens.cse.msu.edu', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc864705490>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='sens.cse.msu.edu', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379a85850>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -5632,17 +5658,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://deanofstudents.msu.edu/academic-integrity",
-          "status": {
-            "text": "Timeout",
-            "code": 0
           },
           "span": {
             "line": 0,
@@ -6721,17 +6736,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/five-spartan-engineers-earn-top-professor-honors",
-          "status": {
-            "text": "Timeout",
-            "code": 0
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/zhan2399": [
@@ -7724,17 +7728,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/five-spartan-engineers-earn-top-professor-honors",
-          "status": {
-            "text": "Timeout",
-            "code": 0
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/jd": [
@@ -8326,17 +8319,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
           },
           "span": {
             "line": 0,
@@ -9079,17 +9061,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
           },
           "span": {
             "line": 0,
@@ -9914,17 +9885,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/chenan17": [
@@ -10418,17 +10378,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/five-spartan-engineers-earn-top-professor-honors",
-          "status": {
-            "text": "Timeout",
-            "code": 0
           },
           "span": {
             "line": 0,
@@ -12146,17 +12095,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/yangruig": [
@@ -12203,17 +12141,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/liuruofe": [
@@ -12233,17 +12160,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
           },
           "span": {
             "line": 0,
@@ -13002,17 +12918,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
           },
           "span": {
             "line": 0,
@@ -14577,17 +14482,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/kronlei2": [
@@ -15134,17 +15028,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/hzeng": [
@@ -15319,17 +15202,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
           },
           "span": {
             "line": 0,
@@ -15651,17 +15523,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
           },
           "span": {
             "line": 0,
@@ -16829,17 +16690,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/five-spartan-engineers-earn-top-professor-honors",
-          "status": {
-            "text": "Timeout",
-            "code": 0
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/tsangjef": [
@@ -17158,17 +17008,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
           },
           "span": {
             "line": 0,
@@ -18359,17 +18198,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/ande1989": [
@@ -18697,17 +18525,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
           },
           "span": {
             "line": 0,
@@ -19506,17 +19323,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/muxinyan": [
@@ -20093,17 +19899,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/welcoming-new-faculty",
-          "status": {
-            "text": "Proxy Error",
-            "code": 502
           },
           "span": {
             "line": 0,
@@ -20849,17 +20644,6 @@
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "url": "https://engineering.msu.edu/news/five-spartan-engineers-earn-top-professor-honors",
-          "status": {
-            "text": "Timeout",
-            "code": 0
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
         }
       ],
       "https://engineering.msu.edu/directory/faculty/kimtae47": [
@@ -21536,6 +21320,17 @@
           "status": {
             "text": "Forbidden",
             "code": 403
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "https://iq.msu.edu/praveen-kumar/",
+          "status": {
+            "text": "Not Found",
+            "code": 404
           },
           "span": {
             "line": 0,
@@ -27023,7 +26818,7 @@
         {
           "url": "https://wie@egr.msu.edu ",
           "status": {
-            "text": "HTTPSConnectionPool(host='egr.msu.edu%20', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8a4611610>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='egr.msu.edu%20', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c3dce50>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -27093,7 +26888,7 @@
         {
           "url": "https://healthpromotion.msu.edu/",
           "status": {
-            "text": "HTTPSConnectionPool(host='healthpromotion.msu.edu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc884732f90>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))",
+            "text": "HTTPSConnectionPool(host='healthpromotion.msu.edu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c52a5d0>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))",
             "code": 0
           },
           "span": {
@@ -30034,6 +29829,17 @@
           }
         },
         {
+          "url": "http://www.nanowerk.com/news2/green/newsid=48394.php",
+          "status": {
+            "text": "Forbidden",
+            "code": 403
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
           "url": "https://phys.org/news/2017-10-transparent-solar-technology-future.html",
           "status": {
             "text": "Too Many Requests",
@@ -30976,10 +30782,10 @@
           }
         },
         {
-          "url": "http://www.rdmag.com/news/2017/08/automated-fingerprint-analysis-one-step-closer-reality",
+          "url": "https://ohsonline.com/articles/2017/08/16/gains-made-in-fingerprint-analysis.aspx?admgarea=news",
           "status": {
-            "text": "Forbidden",
-            "code": 403
+            "text": "Timeout",
+            "code": 0
           },
           "span": {
             "line": 0,
@@ -30987,10 +30793,10 @@
           }
         },
         {
-          "url": "http://acsmeetings.cenmag.org/water-quality-revealed-in-a-droplet/",
+          "url": "http://www.rdmag.com/news/2017/08/automated-fingerprint-analysis-one-step-closer-reality",
           "status": {
-            "text": "Timeout",
-            "code": 0
+            "text": "Forbidden",
+            "code": 403
           },
           "span": {
             "line": 0,
@@ -31415,7 +31221,7 @@
         {
           "url": "https://www.washingtonpost.com/local/obituaries/charles-bachman-engineer-who-devised-a-better-way-to-manage-data-dies-at-92/2017/07/16/8eb8ebde-6a36-11e7-96ab-5f38140b38cc_story.html?utm_term=.45c6bb466093",
           "status": {
-            "text": "Timeout",
+            "text": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
             "code": 0
           },
           "span": {
@@ -32410,8 +32216,8 @@
         {
           "url": "http://www.indiawest.com/news/business/new-study-exposes-vulnerability-of-smartphone-s-fingerprint-scanner/article_a6ebd550-4235-11e7-9cf7-7fb4c047b309.html",
           "status": {
-            "text": "Forbidden",
-            "code": 403
+            "text": "Not Found",
+            "code": 404
           },
           "span": {
             "line": 0,
@@ -32768,8 +32574,8 @@
         {
           "url": "http://www.indiawest.com/news/global_indian/outstanding-indian-american-engineers-named-ieee-fellows-for/article_1dc77322-0234-11e9-b38a-933519a43c67.html",
           "status": {
-            "text": "Forbidden",
-            "code": 403
+            "text": "Not Found",
+            "code": 404
           },
           "span": {
             "line": 0,
@@ -34217,7 +34023,7 @@
         {
           "url": "https://fitmanitoba.com/health-news/new-blood-pressure-app/",
           "status": {
-            "text": "HTTPSConnectionPool(host='fitmanitoba.com', port=443): Max retries exceeded with url: /health-news/new-blood-pressure-app/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc884784090>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
+            "text": "HTTPSConnectionPool(host='fitmanitoba.com', port=443): Max retries exceeded with url: /health-news/new-blood-pressure-app/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c550d50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
             "code": 0
           },
           "span": {
@@ -34250,7 +34056,7 @@
         {
           "url": "https://leadingmobilenews.com/new-blood-pressure-app-eurekalert-science-news/",
           "status": {
-            "text": "HTTPSConnectionPool(host='leadingmobilenews.com', port=443): Max retries exceeded with url: /new-blood-pressure-app-eurekalert-science-news/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc88479e010>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='leadingmobilenews.com', port=443): Max retries exceeded with url: /new-blood-pressure-app-eurekalert-science-news/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6379b05150>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -35505,7 +35311,7 @@
         {
           "url": "https://planetm.michiganbusiness.org/",
           "status": {
-            "text": "HTTPSConnectionPool(host='planetm.michiganbusiness.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc884577a50>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='planetm.michiganbusiness.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c3250d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -35755,7 +35561,7 @@
         {
           "url": "http://www.asabemeetings.org/",
           "status": {
-            "text": "HTTPConnectionPool(host='www.asabemeetings.org', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc864658690>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='www.asabemeetings.org', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f630c55f9d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -37148,7 +36954,7 @@
         {
           "url": "http://members.automationalley.com/news/details/american-society-of-employers-ase-releases-2018-starting-salaries-for-co-op-students-and-recent-college-graduates-survey-03-27-2018",
           "status": {
-            "text": "HTTPConnectionPool(host='members.automationalley.com', port=80): Max retries exceeded with url: /news/details/american-society-of-employers-ase-releases-2018-starting-salaries-for-co-op-students-and-recent-college-graduates-survey-03-27-2018 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8a457c990>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='members.automationalley.com', port=80): Max retries exceeded with url: /news/details/american-society-of-employers-ase-releases-2018-starting-salaries-for-co-op-students-and-recent-college-graduates-survey-03-27-2018 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379a5d5d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -37192,7 +36998,7 @@
         {
           "url": "http://members.automationalley.com/news/details/todd-dishman-appointed-as-2018-leadership-council-on-legal-diversity-fellow-isheeta-patel-appointed-as-an-lcld-pathfinder-participant-03-02-2018",
           "status": {
-            "text": "HTTPConnectionPool(host='members.automationalley.com', port=80): Max retries exceeded with url: /news/details/todd-dishman-appointed-as-2018-leadership-council-on-legal-diversity-fellow-isheeta-patel-appointed-as-an-lcld-pathfinder-participant-03-02-2018 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8c028cbd0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='members.automationalley.com', port=80): Max retries exceeded with url: /news/details/todd-dishman-appointed-as-2018-leadership-council-on-legal-diversity-fellow-isheeta-patel-appointed-as-an-lcld-pathfinder-participant-03-02-2018 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379adf650>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -38041,7 +37847,7 @@
         {
           "url": "http://www.washingtonpost.com/news/grade-point/wp/2018/02/13/michigan-state-faculty-plan-to-vote-on-whether-they-have-confidence-in-leadership-in-wake-of-nassar-scandal/?utm_term=.09640780a5d0",
           "status": {
-            "text": "Timeout",
+            "text": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
             "code": 0
           },
           "span": {
@@ -38461,6 +38267,17 @@
           "status": {
             "text": "Not Found",
             "code": 404
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "http://www.myajc.com/technology/self-driving-vehicle-center-tests-cars-before-hitting-open-road/1x6cTzLpA1l6ZM864Lc67H/",
+          "status": {
+            "text": "Timeout",
+            "code": 0
           },
           "span": {
             "line": 0,
@@ -39345,7 +39162,7 @@
         {
           "url": "https://tinyurl.com/y5vjsqw8",
           "status": {
-            "text": "HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc88455b850>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+            "text": "HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f632c5d5490>: Failed to establish a new connection: [Errno 111] Connection refused'))",
             "code": 0
           },
           "span": {
@@ -39455,7 +39272,7 @@
         {
           "url": "https://middleeast.businesschief.com/technology/2593/Abu-Dhabi-unveils-Artificial-Intelligence-University",
           "status": {
-            "text": "HTTPSConnectionPool(host='middleeast.businesschief.com', port=443): Max retries exceeded with url: /technology/2593/Abu-Dhabi-unveils-Artificial-Intelligence-University (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8a42e7710>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='middleeast.businesschief.com', port=443): Max retries exceeded with url: /technology/2593/Abu-Dhabi-unveils-Artificial-Intelligence-University (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c57f250>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -39849,7 +39666,7 @@
         {
           "url": "https://z6mag.com/2019/09/30/nanotech-gives-chemotherapy-a-needed-consistency-boost/",
           "status": {
-            "text": "HTTPSConnectionPool(host='z6mag.com', port=443): Max retries exceeded with url: /2019/09/30/nanotech-gives-chemotherapy-a-needed-consistency-boost/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc88474b510>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))",
+            "text": "HTTPSConnectionPool(host='z6mag.com', port=443): Max retries exceeded with url: /2019/09/30/nanotech-gives-chemotherapy-a-needed-consistency-boost/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f634c293510>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))",
             "code": 0
           },
           "span": {
@@ -40894,7 +40711,7 @@
         {
           "url": "https://msu.edu/presidentialsearch/",
           "status": {
-            "text": "HTTPSConnectionPool(host='presidentialsearch.msu.edu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8847795d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='presidentialsearch.msu.edu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c658610>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -40984,7 +40801,7 @@
         {
           "url": "https://chemicalsmarketnews.com/the-biodegradable-plastic-new-solution-for-the-environment/07/30/446/",
           "status": {
-            "text": "HTTPSConnectionPool(host='chemicalsmarketnews.com', port=443): Max retries exceeded with url: /the-biodegradable-plastic-new-solution-for-the-environment/07/30/446/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8da956850>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='chemicalsmarketnews.com', port=443): Max retries exceeded with url: /the-biodegradable-plastic-new-solution-for-the-environment/07/30/446/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f637aaf91d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -42731,7 +42548,7 @@
         {
           "url": "http://icm-tracking.meltwater.com/link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fefestnorth.asme.org%2Fhome&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=mZVCMoZoaPI1N86-220C3jnSvqb9AarPh-IDFX8pwI0",
           "status": {
-            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fefestnorth.asme.org%2Fhome&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=mZVCMoZoaPI1N86-220C3jnSvqb9AarPh-IDFX8pwI0 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc864774f50>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fefestnorth.asme.org%2Fhome&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=mZVCMoZoaPI1N86-220C3jnSvqb9AarPh-IDFX8pwI0 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f630c6f6010>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -42742,7 +42559,7 @@
         {
           "url": "http://icm-tracking.meltwater.com/link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fefestnorth.asme.org%2Fpage%2F1367589%2Fregistration&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=CQ6fIh7PfR7pg9hiK4aJCPzPw0sG9mljOdpBtzNWJRI",
           "status": {
-            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fefestnorth.asme.org%2Fpage%2F1367589%2Fregistration&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=CQ6fIh7PfR7pg9hiK4aJCPzPw0sG9mljOdpBtzNWJRI (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8daac88d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fefestnorth.asme.org%2Fpage%2F1367589%2Fregistration&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=CQ6fIh7PfR7pg9hiK4aJCPzPw0sG9mljOdpBtzNWJRI (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379af2690>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -42753,7 +42570,7 @@
         {
           "url": "http://icm-tracking.meltwater.com/link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fefests.asme.org%2Fcompetitions&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=nGwyo-kJBqKd_2x1v-Oh6jKmOSNLCkakHryNizomzRk",
           "status": {
-            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fefests.asme.org%2Fcompetitions&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=nGwyo-kJBqKd_2x1v-Oh6jKmOSNLCkakHryNizomzRk (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8daa89ed0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fefests.asme.org%2Fcompetitions&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=nGwyo-kJBqKd_2x1v-Oh6jKmOSNLCkakHryNizomzRk (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f634c4926d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -42764,7 +42581,7 @@
         {
           "url": "http://icm-tracking.meltwater.com/link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fwww.astrobotic.com%2Fabout&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=bawQf7sn8qRI-JVASjxtmqzwVYJeaI2CJ0vqGHr_NQ4",
           "status": {
-            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fwww.astrobotic.com%2Fabout&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=bawQf7sn8qRI-JVASjxtmqzwVYJeaI2CJ0vqGHr_NQ4 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8daa8a250>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fwww.astrobotic.com%2Fabout&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=bawQf7sn8qRI-JVASjxtmqzwVYJeaI2CJ0vqGHr_NQ4 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379ab2b90>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -42775,7 +42592,7 @@
         {
           "url": "http://icm-tracking.meltwater.com/link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fwww.purdue.edu%2Fnewsroom%2Freleases%2F2018%2FQ4%2Fhold-on-tight-purdue-class-lets-students-design%2C-experience-the-twists-and-turns-of-a-roller-coaster.html&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=8EL9jCAjEbXadF74y3tg33fqfAgpZjofb8udPAOGuN0",
           "status": {
-            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fwww.purdue.edu%2Fnewsroom%2Freleases%2F2018%2FQ4%2Fhold-on-tight-purdue-class-lets-students-design%2C-experience-the-twists-and-turns-of-a-roller-coaster.html&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=8EL9jCAjEbXadF74y3tg33fqfAgpZjofb8udPAOGuN0 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8daa8ba50>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fwww.purdue.edu%2Fnewsroom%2Freleases%2F2018%2FQ4%2Fhold-on-tight-purdue-class-lets-students-design%2C-experience-the-twists-and-turns-of-a-roller-coaster.html&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=8EL9jCAjEbXadF74y3tg33fqfAgpZjofb8udPAOGuN0 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379c37fd0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -42786,7 +42603,7 @@
         {
           "url": "http://icm-tracking.meltwater.com/link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fsites.google.com%2Fsite%2Frhoadsresearchgroup%2F&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=GmFu6zPmvwZBqISOevbP8AP2zVp8t-LwCDpAYAdB3gY",
           "status": {
-            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fsites.google.com%2Fsite%2Frhoadsresearchgroup%2F&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=GmFu6zPmvwZBqISOevbP8AP2zVp8t-LwCDpAYAdB3gY (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8daac88d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fsites.google.com%2Fsite%2Frhoadsresearchgroup%2F&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=GmFu6zPmvwZBqISOevbP8AP2zVp8t-LwCDpAYAdB3gY (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379a66610>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -42797,7 +42614,7 @@
         {
           "url": "http://icm-tracking.meltwater.com/link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fglobalhealthdesign.engin.umich.edu%2F&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=MQQiOi2pDUX25vAym251c_fX3sj9yUlnpN5gc67Qp6M",
           "status": {
-            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fglobalhealthdesign.engin.umich.edu%2F&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=MQQiOi2pDUX25vAym251c_fX3sj9yUlnpN5gc67Qp6M (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc864783a50>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fglobalhealthdesign.engin.umich.edu%2F&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=MQQiOi2pDUX25vAym251c_fX3sj9yUlnpN5gc67Qp6M (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f630c6ceed0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -42808,7 +42625,7 @@
         {
           "url": "http://icm-tracking.meltwater.com/link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fwww.engineeringforchange.org%2Fwho-we-are%2F&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=QHq5xqxv_WkjDjT9JXWyR9TZ2xNBdJI3Ti4A9mX5OKc",
           "status": {
-            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fwww.engineeringforchange.org%2Fwho-we-are%2F&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=QHq5xqxv_WkjDjT9JXWyR9TZ2xNBdJI3Ti4A9mX5OKc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc864781dd0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=https%3A%2F%2Fwww.engineeringforchange.org%2Fwho-we-are%2F&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=QHq5xqxv_WkjDjT9JXWyR9TZ2xNBdJI3Ti4A9mX5OKc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f630c6cee10>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -42819,7 +42636,7 @@
         {
           "url": "http://icm-tracking.meltwater.com/link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=http%3A%2F%2Fwww.siemens.com%2Fplm&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=coZ4CQb_4MFDsPt28FmjX0Sps7INpQpjt8RrfvtsA6A",
           "status": {
-            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=http%3A%2F%2Fwww.siemens.com%2Fplm&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=coZ4CQb_4MFDsPt28FmjX0Sps7INpQpjt8RrfvtsA6A (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc86475f590>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='icm-tracking.meltwater.com', port=80): Max retries exceeded with url: /link.php?DynEngagement=true&H=FcQ5do3Mtm%2F2JnP%2FxXFcY%2BL9mOkU%2Fad4G7kfqxVfSdkEEq1vNf2gy3%2FMCzHpBE%2FNG68jy%2F%2Fg%2Fx%2F1ufSNA1gt89jsnrVaZI%2FJ%2FTETjEYrpjwd0tobOUC0Zq6exW%2FIgr0f&G=0&R=http%3A%2F%2Fwww.siemens.com%2Fplm&I=20190314170716.000000c3c626%40mail6-41-usnbn1&X=MHwxMDQ2NzU4OjVjODlhYjJkZjJjYWMyZWMxMDBmYmQ4Mjs%3D&S=coZ4CQb_4MFDsPt28FmjX0Sps7INpQpjt8RrfvtsA6A (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f630c6cd0d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -43272,7 +43089,7 @@
         {
           "url": "https://www.usnews.com/education/best-graduate-schools/articles/2019-02-25/how-to-evaluate-different-types-of-engineering-degrees-jobs",
           "status": {
-            "text": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+            "text": "Timeout",
             "code": 0
           },
           "span": {
@@ -43283,7 +43100,7 @@
         {
           "url": "https://blog.autokartz.com/visa-slowdown-crimps-tech-talent-for-auto-suppliers/",
           "status": {
-            "text": "HTTPSConnectionPool(host='blog.autokartz.com', port=443): Max retries exceeded with url: /visa-slowdown-crimps-tech-talent-for-auto-suppliers/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc864625810>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
+            "text": "HTTPSConnectionPool(host='blog.autokartz.com', port=443): Max retries exceeded with url: /visa-slowdown-crimps-tech-talent-for-auto-suppliers/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f63799c1f10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
             "code": 0
           },
           "span": {
@@ -43305,7 +43122,7 @@
         {
           "url": "http://technewsjar.com/visa-slowdown-crimps-tech-talent-for-auto-suppliers/",
           "status": {
-            "text": "HTTPConnectionPool(host='technewsjar.com', port=80): Max retries exceeded with url: /visa-slowdown-crimps-tech-talent-for-auto-suppliers/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc86476c610>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='technewsjar.com', port=80): Max retries exceeded with url: /visa-slowdown-crimps-tech-talent-for-auto-suppliers/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f63799dd450>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -43316,7 +43133,7 @@
         {
           "url": "http://news.uandthem.com/blog/2019/02/03/visa-slowdown-crimps-tech-talent-suppliers/",
           "status": {
-            "text": "HTTPConnectionPool(host='news.uandthem.com', port=80): Max retries exceeded with url: /blog/2019/02/03/visa-slowdown-crimps-tech-talent-suppliers/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8dab27a50>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='news.uandthem.com', port=80): Max retries exceeded with url: /blog/2019/02/03/visa-slowdown-crimps-tech-talent-suppliers/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379abd950>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -44046,8 +43863,8 @@
         {
           "url": "https://www.indiawest.com/news/global_indian/indian-american-educator-satish-udpa-appointed-as-acting-president-of/article_31b6c95c-20eb-11e9-bf2e-7bc739877b5e.html",
           "status": {
-            "text": "Forbidden",
-            "code": 403
+            "text": "Not Found",
+            "code": 404
           },
           "span": {
             "line": 0,
@@ -44134,8 +43951,8 @@
         {
           "url": "https://www.indiawest.com/news/global_indian/michigan-state-university-indian-american-professor-anil-jain-among-world/article_f18a7628-0ae0-11e9-98c9-2fe553f95a19.html",
           "status": {
-            "text": "Forbidden",
-            "code": 403
+            "text": "Not Found",
+            "code": 404
           },
           "span": {
             "line": 0,
@@ -44427,7 +44244,7 @@
         {
           "url": "https://devolab.org/",
           "status": {
-            "text": "HTTPSConnectionPool(host='devolab.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8dab99890>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))",
+            "text": "HTTPSConnectionPool(host='devolab.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6379fe5410>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))",
             "code": 0
           },
           "span": {
@@ -44750,7 +44567,7 @@
         {
           "url": "https://msuengineersgraduation.com/",
           "status": {
-            "text": "HTTPSConnectionPool(host='msuengineersgraduation.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc88466ded0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='msuengineersgraduation.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c5ac590>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -44761,7 +44578,7 @@
         {
           "url": "https://www.msuengineersgraduation.com/",
           "status": {
-            "text": "HTTPSConnectionPool(host='www.msuengineersgraduation.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc88430b1d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='www.msuengineersgraduation.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f630c732490>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -46290,7 +46107,7 @@
         {
           "url": "https://news.digitalnamanji.com/researches-claim-new-way-of-hacking-into-virtual-assistants-using-ultrasonic-waves/",
           "status": {
-            "text": "HTTPSConnectionPool(host='news.digitalnamanji.com', port=443): Max retries exceeded with url: /researches-claim-new-way-of-hacking-into-virtual-assistants-using-ultrasonic-waves/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc88455b390>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='news.digitalnamanji.com', port=443): Max retries exceeded with url: /researches-claim-new-way-of-hacking-into-virtual-assistants-using-ultrasonic-waves/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c7a6450>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -47585,17 +47402,6 @@
           }
         },
         {
-          "url": "https://www.accuweather.com/en/severe-weather/michigan-dam-failures-trigger-historic-and-catastrophic-flooding/742939",
-          "status": {
-            "text": "Forbidden",
-            "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
           "url": "https://msutoday.msu.edu/news/2020/no-bones-about-it-octopus-may-be-the-key-to-smart-prosthetics/",
           "status": {
             "text": "Not Found",
@@ -47776,7 +47582,7 @@
         {
           "url": "https://scho",
           "status": {
-            "text": "HTTPSConnectionPool(host='scho', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc88477a5d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='scho', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c36f590>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -47787,7 +47593,7 @@
         {
           "url": "http://www.guide2rese",
           "status": {
-            "text": "HTTPConnectionPool(host='www.guide2rese', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8a47541d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='www.guide2rese', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379c2bad0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -49387,7 +49193,7 @@
         {
           "url": "https://studentstartupmadness.com/entrepreneurial-eight-2020/",
           "status": {
-            "text": "HTTPSConnectionPool(host='studentstartupmadness.com', port=443): Max retries exceeded with url: /entrepreneurial-eight-2020/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8844caf10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
+            "text": "HTTPSConnectionPool(host='studentstartupmadness.com', port=443): Max retries exceeded with url: /entrepreneurial-eight-2020/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c6b3810>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
             "code": 0
           },
           "span": {
@@ -49398,7 +49204,7 @@
         {
           "url": "https://studentstartupmadness.com/judges/",
           "status": {
-            "text": "HTTPSConnectionPool(host='studentstartupmadness.com', port=443): Max retries exceeded with url: /judges/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8846a9290>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
+            "text": "HTTPSConnectionPool(host='studentstartupmadness.com', port=443): Max retries exceeded with url: /judges/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c3f2390>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
             "code": 0
           },
           "span": {
@@ -49856,7 +49662,7 @@
         {
           "url": "https://members.automationalley.com/news/details/ase-releases-2020-starting-salaries-for-co-op-students-and-recent-college-graduates-survey-01-28-2020",
           "status": {
-            "text": "HTTPSConnectionPool(host='members.automationalley.com', port=443): Max retries exceeded with url: /news/details/ase-releases-2020-starting-salaries-for-co-op-students-and-recent-college-graduates-survey-01-28-2020 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8846764d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='members.automationalley.com', port=443): Max retries exceeded with url: /news/details/ase-releases-2020-starting-salaries-for-co-op-students-and-recent-college-graduates-survey-01-28-2020 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c5bb450>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -50208,7 +50014,7 @@
         {
           "url": "https://businessconnect.msu",
           "status": {
-            "text": "HTTPSConnectionPool(host='businessconnect.msu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc864624150>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='businessconnect.msu', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6379ab0890>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -50787,7 +50593,7 @@
         {
           "url": "https://bookauthority.or",
           "status": {
-            "text": "HTTPSConnectionPool(host='bookauthority.or', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8da9d49d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='bookauthority.or', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f637a041750>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -53688,6 +53494,28 @@
           "status": {
             "text": "Forbidden",
             "code": 403
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "http://www.asee-prism.org/double-jeopardy/",
+          "status": {
+            "text": "HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379c3f790>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+            "code": 0
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "http://www.asee-prism.org/a-frayed-welcome-mat/",
+          "status": {
+            "text": "HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6379959890>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+            "code": 0
           },
           "span": {
             "line": 0,
@@ -57053,7 +56881,7 @@
         {
           "url": "https://www.asabemeetings.org/",
           "status": {
-            "text": "HTTPSConnectionPool(host='www.asabemeetings.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc884647d10>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='www.asabemeetings.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c4eaf90>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -57151,17 +56979,6 @@
           "status": {
             "text": "Forbidden",
             "code": 403
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "url": "https://biox.stanford.edu/highlight/stretchable-probe-measures-brain-chemicals-central-parkinson%E2%80%99s-depression-and-gut-disease",
-          "status": {
-            "text": "Timeout",
-            "code": 0
           },
           "span": {
             "line": 0,
@@ -58961,17 +58778,6 @@
           }
         },
         {
-          "url": "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-Act-381-of-1998.pdf",
-          "status": {
-            "text": "Timeout",
-            "code": 0
-          },
-          "span": {
-            "line": 0,
-            "column": 0
-          }
-        },
-        {
           "url": "https://maeap.org/",
           "status": {
             "text": "Forbidden",
@@ -59378,7 +59184,7 @@
         {
           "url": "https://www.talleyjobs.com/",
           "status": {
-            "text": "HTTPSConnectionPool(host='www.talleyjobs.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8841b2010>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='www.talleyjobs.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c535790>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -62216,7 +62022,7 @@
         {
           "url": "https://ftf.qa/",
           "status": {
-            "text": "HTTPSConnectionPool(host='ftf.qa', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc88479c250>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
+            "text": "HTTPSConnectionPool(host='ftf.qa', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c7a7f90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
             "code": 0
           },
           "span": {
@@ -68243,7 +68049,7 @@
         {
           "url": "https://www.ieeewamicon.org/",
           "status": {
-            "text": "HTTPSConnectionPool(host='www.ieeewamicon.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc884730310>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+            "text": "HTTPSConnectionPool(host='www.ieeewamicon.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f630c726050>: Failed to establish a new connection: [Errno 111] Connection refused'))",
             "code": 0
           },
           "span": {
@@ -68254,7 +68060,7 @@
         {
           "url": "https://www.ieeewamicon.org/henning-award",
           "status": {
-            "text": "HTTPSConnectionPool(host='www.ieeewamicon.org', port=443): Max retries exceeded with url: /henning-award (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc884583d90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+            "text": "HTTPSConnectionPool(host='www.ieeewamicon.org', port=443): Max retries exceeded with url: /henning-award (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f632c118790>: Failed to establish a new connection: [Errno 111] Connection refused'))",
             "code": 0
           },
           "span": {
@@ -70838,7 +70644,7 @@
         {
           "url": "https://docs.nrel.gov/docs/fy22osti/83566.pdf",
           "status": {
-            "text": "HTTPSConnectionPool(host='docs.nrel.gov', port=443): Max retries exceeded with url: /docs/fy22osti/83566.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8db9d3b50>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))",
+            "text": "HTTPSConnectionPool(host='docs.nrel.gov', port=443): Max retries exceeded with url: /docs/fy22osti/83566.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f637a9e4dd0>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))",
             "code": 0
           },
           "span": {
@@ -71369,8 +71175,8 @@
         {
           "url": "https://www.linkedin.com/in/sherif-ramadan-669441102/",
           "status": {
-            "text": "<none>",
-            "code": 999
+            "text": "Too Many Requests",
+            "code": 429
           },
           "span": {
             "line": 0,
@@ -71981,7 +71787,7 @@
         {
           "url": "https://Chengcheng",
           "status": {
-            "text": "HTTPSConnectionPool(host='chengcheng', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc8c02942d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPSConnectionPool(host='chengcheng', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f637a01d690>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -73642,7 +73448,7 @@
         {
           "url": "http://www.absoluteacademy.net/",
           "status": {
-            "text": "HTTPConnectionPool(host='www.absoluteacademy.net', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc86461b150>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+            "text": "HTTPConnectionPool(host='www.absoluteacademy.net', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f630c5956d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
             "code": 0
           },
           "span": {
@@ -76802,6 +76608,96 @@
           }
         }
       ],
+      "https://engineering.msu.edu/news/how-mini-hearts-could-help-transform-how-we-treat-heart-disease": [
+        {
+          "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
+          "status": {
+            "text": "Forbidden",
+            "code": 403
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "https://lp.constantcontactpages.com/sl/b6a03rD",
+          "status": {
+            "text": "Forbidden",
+            "code": 403
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "https://engineering.msu.edu/sites/default/files/inline-images/cfec050f3a9f4bca87827a5d1aa9e22e.jpeg",
+          "status": {
+            "text": "Not Found",
+            "code": 404
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "https://engineering.msu.edu/sites/default/files/inline-images/77785cb9ae8f4f4999d2fd2f1dc92f35.jpeg",
+          "status": {
+            "text": "Not Found",
+            "code": 404
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1934590925003674",
+          "status": {
+            "text": "Forbidden",
+            "code": 403
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "https://engineering.msu.edu/sites/default/files/inline-images/4fdd60c5f6a64f5f83b0d35d7051a5e4.jpeg",
+          "status": {
+            "text": "Not Found",
+            "code": 404
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "https://engineering.msu.edu/sites/default/files/inline-images/70bec6cca4ff45928f83c5614f22f03b.jpeg",
+          "status": {
+            "text": "Not Found",
+            "code": 404
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        {
+          "url": "https://engineering.msu.edu/sites/default/files/inline-images/f519da37c75e40e3a7a7482b5e7e19a3.jpeg",
+          "status": {
+            "text": "Not Found",
+            "code": 404
+          },
+          "span": {
+            "line": 0,
+            "column": 0
+          }
+        }
+      ],
       "https://engineering.msu.edu/news-events": [
         {
           "url": "https://secure.myalumni.msu.edu/s/1393/05-alumni/21/interior.aspx?sid=1393&gid=5&pgid=3&cid=40&returnurl=http%3a%2f%2fmyalumni.msu.edu%2fs%2f1393%2f05-alumni%2findex.aspx%3fsid%3d1393%26gid%3d5%26pgid%3d95%26cid%3d271",
@@ -77182,9 +77078,9 @@
     }
   },
   "https://mobility.msu.edu": {
-    "total": 24,
-    "unique": 24,
-    "successful": 24,
+    "total": 0,
+    "unique": 0,
+    "successful": 0,
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
@@ -77200,8 +77096,8 @@
     "redirect_map": {},
     "excluded_map": {},
     "duration": {
-      "secs": 2,
-      "nanos": 439824219
+      "secs": 1,
+      "nanos": 230136057
     },
     "detailed_stats": false
   },
@@ -77212,145 +77108,17 @@
     "unknown": 0,
     "unsupported": 0,
     "timeouts": 0,
-    "redirects": 52,
+    "redirects": 38,
     "remaps": 0,
     "excludes": 25,
     "errors": 0,
-    "cached": 502,
+    "cached": 509,
     "success_map": {},
     "error_map": {},
     "timeout_map": {},
     "suggestion_map": {},
     "redirect_map": {},
     "excluded_map": {
-      "https://space-electronics.msu.edu/site-map": [
-        {
-          "url": "tel:5173535817",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 9228
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 261
-          }
-        },
-        {
-          "url": "tel:5173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 10624
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 228
-          }
-        }
-      ],
-      "https://space-electronics.msu.edu/errors": [
-        {
-          "url": "tel:5173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 10833
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 279
-          }
-        },
-        {
-          "url": "tel:5173535817",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 9437
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 230
-          }
-        }
-      ],
-      "https://space-electronics.msu.edu/resources": [
-        {
-          "url": "tel:5173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 13074
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 243
-          }
-        },
-        {
-          "url": "tel:5173535817",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 11678
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 313
-          }
-        }
-      ],
-      "https://space-electronics.msu.edu/": [
-        {
-          "url": "tel:5173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 10833
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 476
-          }
-        },
-        {
-          "url": "tel:5173535817",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 9437
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 334
-          }
-        }
-      ],
       "https://space-electronics.msu.edu/members": [
         {
           "url": "mailto:harokop1@msu.edu",
@@ -77364,22 +77132,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 239
-          }
-        },
-        {
-          "url": "tel:5173535817",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 12925
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 371
+            "nanos": 269
           }
         },
         {
@@ -77394,39 +77147,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 439
-          }
-        }
-      ],
-      "https://space-electronics.msu.edu/student-experiences": [
-        {
-          "url": "tel:5173551855",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 16114
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 238
-          }
-        },
-        {
-          "url": "mailto:serbar@msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 12051
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 669
+            "nanos": 223
           }
         },
         {
@@ -77437,15 +77158,15 @@
           },
           "span": {
             "line": 115,
-            "column": 14718
+            "column": 12925
           },
           "duration": {
             "secs": 0,
-            "nanos": 201
+            "nanos": 235
           }
         }
       ],
-      "https://space-electronics.msu.edu/team": [
+      "https://space-electronics.msu.edu/errors": [
         {
           "url": "tel:5173535817",
           "status": {
@@ -77454,11 +77175,11 @@
           },
           "span": {
             "line": 115,
-            "column": 23079
+            "column": 9437
           },
           "duration": {
             "secs": 0,
-            "nanos": 495
+            "nanos": 220
           }
         },
         {
@@ -77469,11 +77190,90 @@
           },
           "span": {
             "line": 115,
-            "column": 24475
+            "column": 10833
           },
           "duration": {
             "secs": 0,
-            "nanos": 542
+            "nanos": 214
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/contact": [
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 11330
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 218
+          }
+        },
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 12726
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 220
+          }
+        },
+        {
+          "url": "mailto:harokop1@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 8459
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 229
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/errors/500": [
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9947
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 488
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 8551
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 227
           }
         }
       ],
@@ -77490,7 +77290,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 212
+            "nanos": 261
           }
         },
         {
@@ -77505,11 +77305,26 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 292
+            "nanos": 260
           }
         }
       ],
-      "https://space-electronics.msu.edu/errors/500": [
+      "https://space-electronics.msu.edu/student-experiences": [
+        {
+          "url": "mailto:serbar@msu.edu",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 12051
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 366
+          }
+        },
         {
           "url": "tel:5173535817",
           "status": {
@@ -77518,11 +77333,11 @@
           },
           "span": {
             "line": 115,
-            "column": 8551
+            "column": 14718
           },
           "duration": {
             "secs": 0,
-            "nanos": 249
+            "nanos": 221
           }
         },
         {
@@ -77533,11 +77348,11 @@
           },
           "span": {
             "line": 115,
-            "column": 9947
+            "column": 16114
           },
           "duration": {
             "secs": 0,
-            "nanos": 237
+            "nanos": 222
           }
         }
       ],
@@ -77554,7 +77369,7 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 216
+            "nanos": 217
           }
         },
         {
@@ -77569,11 +77384,11 @@
           },
           "duration": {
             "secs": 0,
-            "nanos": 319
+            "nanos": 361
           }
         }
       ],
-      "https://space-electronics.msu.edu/contact": [
+      "https://space-electronics.msu.edu/resources": [
         {
           "url": "tel:5173551855",
           "status": {
@@ -77582,26 +77397,11 @@
           },
           "span": {
             "line": 115,
-            "column": 12726
+            "column": 13074
           },
           "duration": {
             "secs": 0,
-            "nanos": 262
-          }
-        },
-        {
-          "url": "mailto:harokop1@msu.edu",
-          "status": {
-            "text": "Excluded",
-            "details": "This is due to your 'exclude' values"
-          },
-          "span": {
-            "line": 115,
-            "column": 8459
-          },
-          "duration": {
-            "secs": 0,
-            "nanos": 223
+            "nanos": 228
           }
         },
         {
@@ -77612,18 +77412,114 @@
           },
           "span": {
             "line": 115,
-            "column": 11330
+            "column": 11678
           },
           "duration": {
             "secs": 0,
-            "nanos": 374
+            "nanos": 284
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/site-map": [
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 10624
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 216
+          }
+        },
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9228
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 215
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/": [
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 9437
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 262
+          }
+        },
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 10833
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 207
+          }
+        }
+      ],
+      "https://space-electronics.msu.edu/team": [
+        {
+          "url": "tel:5173535817",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 23079
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 322
+          }
+        },
+        {
+          "url": "tel:5173551855",
+          "status": {
+            "text": "Excluded",
+            "details": "This is due to your 'exclude' values"
+          },
+          "span": {
+            "line": 115,
+            "column": 24475
+          },
+          "duration": {
+            "secs": 0,
+            "nanos": 520
           }
         }
       ]
     },
     "duration": {
-      "secs": 1,
-      "nanos": 917830166
+      "secs": 25,
+      "nanos": 556242394
     },
     "detailed_stats": false
   }
